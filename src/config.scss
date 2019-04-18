@@ -1,0 +1,36 @@
+/* --- FONTS --- */
+
+@font-face {
+    font-family: "Le Murmure";
+    src: url("../assets/fonts/prophet_regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Prophet Regular";
+    src: url("../assets/fonts/prophet_regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Prophet Light";
+    src: url("../assets/fonts/prophet_light.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Prophet Light Italic";
+    src: url("../assets/fonts/prophet_light_italic.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Prophet Medium";
+    src: url("../assets/fonts/prophet_medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Prophet Medium Italic";
+    src: url("../assets/fonts/prophet_medium_italic.woff") format("woff");
+}
+
+/* --- COLORS --- */
+
+$black: #000000;
+$purple: #b52df5;
