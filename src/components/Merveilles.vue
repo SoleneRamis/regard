@@ -11,6 +11,7 @@
         <img class="statueZeus" src="../assets/02_sept_merveilles/statueZeus.png"/>
         <img class="templeArthemis" src="../assets/02_sept_merveilles/templeArthemis.png"/>
         <img class="jardinsSuspendues" src="../assets/02_sept_merveilles/jardinsSuspendues.png"/>
+        <span class="desc">Comment découvrir les 7 merveilles sous un nouvel angle? —</span>
       </div>
     </div>
       <span class="title" ref="titleHover" :class="{'hoverTitle': isHover}">les sept merveilles</span>
@@ -47,7 +48,6 @@ export default {
 @import "@/config.scss";
 .merveilles {
   width: 100%;
-  height: 1080px;
   position: absolute;
   top: 6.5vh;
   display: flex;
@@ -111,6 +111,15 @@ export default {
         margin-left: 7px;
         margin-bottom: 14px;
       }
+      .desc {
+        margin-left: 283px;
+        margin-top: -276px;
+        width: 272px;
+        font-family: "Prophet Regular";
+        font-size: 15px;
+        line-height: normal;
+        text-align: start;
+      }
     }
   }
   .title {
@@ -118,14 +127,13 @@ export default {
     position: fixed;
     display: flex;
     justify-content: center;
-    align-self: center;
-    margin-top: -239px;
+    margin-top: 82px;
     visibility: hidden;
     font-family: "Le Murmure";
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: $purple;
-    font-size: 121.5px;
+    font-size: 220px;
     line-height: normal;
     letter-spacing: 8px;
     z-index: 1;
