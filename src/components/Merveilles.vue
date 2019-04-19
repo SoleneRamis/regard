@@ -13,7 +13,7 @@
         <img class="jardinsSuspendues" src="../assets/02_sept_merveilles/jardinsSuspendues.png"/>
       </div>
     </div>
-      <span class="title"  :class="{'hoverTitle': isHover}">les sept merveilles</span>
+      <span class="title" ref="titleHover" :class="{'hoverTitle': isHover}">les sept merveilles</span>
   </div>
 </template>
 
@@ -31,6 +31,12 @@ export default {
       this.isHover = true
     })
     this.$refs.titleContainer.addEventListener('mouseleave', () => {
+      this.isHover = false
+    })
+    this.$refs.titleHover.addEventListener('mouseenter', () => {
+      this.isHover = true
+    })
+    this.$refs.titleHover.addEventListener('mouseleave', () => {
       this.isHover = false
     })
   }
