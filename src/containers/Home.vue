@@ -50,7 +50,7 @@ export default {
     .logo {
       position: fixed;
       top: 122px;
-      left: 83px;
+      left: 489px;
     }
   }
 }
