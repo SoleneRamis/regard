@@ -44,16 +44,12 @@ export default {
   justify-content: space-around;
   background-color: white;
   .team {
-    position: absolute;
-    left: 647px;
-  }
-  .name {
-    position: absolute;
-    left: 936px;
+    position: fixed;
+    left: 370px;
   }
   .off {
-    position: absolute;
-    right: 654px;
+    position: fixed;
+    right: 380px;
   }
   .team,
   .off {
@@ -73,6 +69,7 @@ export default {
   .logoAnim {
     position: relative;
     margin-top: -14px;
+    margin-left: 6px;
     transform: translate(0px);
     transition: all 1s ease-in-out;
     .square {
@@ -121,17 +118,17 @@ export default {
       transition: all 1s ease-in-out;
       .square {
         width: 23px;
-        height: 18px;
-        transform: scale(0.3) translate(2vw, 3.5vw);
+        height: 12px;
+        transform: scale(0.3) translate(2.7vw, 5.5vw);
         transition: all 1s ease-in-out;
       }
       .slashLeft {
-        transform: translate(-1.5vw, -0.2vh) scale(1);
+        transform: translate(-2vw, -0.4vh) scale(1);
         color: $purple;
         transition: all 1s ease-in-out;
       }
       .slashRight {
-        transform: translate(3.3vw, -0.2vh) scale(1);
+        transform: translate(4.3vw, -0.4vh) scale(1);
         color: $purple;
         transition: all 1s ease-in-out;
       }
