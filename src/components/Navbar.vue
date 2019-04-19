@@ -136,4 +136,16 @@ export default {
     }
   }
 }
+@media only screen and (width: 1920px) {
+  .navbar {
+    .team {
+        position: fixed;
+        left: 647px;
+    }
+    .off {
+        position: fixed;
+        right: 654px;
+    }
+  }
+}
 </style>
