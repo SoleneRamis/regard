@@ -136,7 +136,7 @@ export default {
     }
   }
 }
-@media only screen and (max-width: 2580px) {
+@media only screen and (min-width: 2580px) {
   .navbar {
     .team {
         position: fixed;

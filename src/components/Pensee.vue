@@ -1,5 +1,5 @@
 <template>
-  <div class="merveilles">
+  <div class="pensee">
     <div class="container" ref="titleContainer">
       <div class="left">
         <img class="mausoleeHalicarnasse" src="../assets/02_sept_merveilles/mausoleeHalicarnasse.png"/>
@@ -14,13 +14,13 @@
         <span class="desc">Comment découvrir les 7 merveilles sous un nouvel angle? —</span>
       </div>
     </div>
-      <span class="title" ref="titleHover" :class="{'hoverTitle': isHover}">les sept merveilles</span>
+      <span class="title" ref="titleHover" :class="{'hoverTitle': isHover}">"pensée"</span>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Merveilles',
+  name: 'Pensee',
   data () {
     return {
       isHover: false
@@ -46,7 +46,7 @@ export default {
 
 <style lang="scss" scoped>
 @import "@/config.scss";
-.merveilles {
+.pensee {
   width: 100%;
   position: absolute;
   top: 6.5vh;
@@ -144,7 +144,7 @@ export default {
   }
 }
 
-@media only screen and (min-width: 2580px) {
+@media only screen and (max-width: 2580px) {
   .merveilles {
     .title {
       margin-top: -50px;
