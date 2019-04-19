@@ -118,12 +118,12 @@ export default {
         transition: opacity 0.5s ease-in-out;
       }
       .slashLeft {
-        transform: translate(-2.7vw, -0.3vh);
+        transform: translate(-42px, -4px);
         color: $purple;
         transition: all 1s ease-in-out;
       }
       .slashRight {
-        transform: translate(4.2vw, -0.3vh);
+        transform: translate(60px, -4px);
         color: $purple;
         transition: all 1s ease-in-out;
       }
