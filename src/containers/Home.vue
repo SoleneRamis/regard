@@ -45,7 +45,7 @@ export default {
       left: 0px;
     }
   }
-  @media only screen and (min-width: 2580px) {
+  @media only screen and (max-width: 2580px) {
   .home {
     .logo {
       position: fixed;
