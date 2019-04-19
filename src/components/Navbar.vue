@@ -136,15 +136,15 @@ export default {
     }
   }
 }
-@media only screen and (width: 1920px) {
+@media only screen and (max-width: 2580px) {
   .navbar {
     .team {
         position: fixed;
-        left: 647px;
+        left: 947px;
     }
     .off {
         position: fixed;
-        right: 654px;
+        right: 954px;
     }
   }
 }

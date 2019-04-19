@@ -144,10 +144,10 @@ export default {
   }
 }
 
-@media only screen and (width: 1920px) {
+@media only screen and (max-width: 2580px) {
   .merveilles {
     .title {
-      margin-top: -62px;
+      margin-top: -50px;
     }
   }
 }
