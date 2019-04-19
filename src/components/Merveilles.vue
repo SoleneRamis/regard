@@ -114,9 +114,12 @@ export default {
     }
   }
   .title {
+    width: 100%;
     position: fixed;
-    left: 9vw;
-    top: 31vh;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: -239px;
     visibility: hidden;
     font-family: "Le Murmure";
     -webkit-text-fill-color: transparent;
