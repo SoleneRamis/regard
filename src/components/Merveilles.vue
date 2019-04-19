@@ -127,7 +127,8 @@ export default {
     position: fixed;
     display: flex;
     justify-content: center;
-    margin-top: 82px;
+    align-self: center;
+    margin-top: -228px;
     visibility: hidden;
     font-family: "Le Murmure";
     -webkit-text-fill-color: transparent;
@@ -140,6 +141,14 @@ export default {
   }
   .hoverTitle {
     visibility: visible;
+  }
+}
+
+@media only screen and (width: 1920px) {
+  .merveilles {
+    .title {
+      margin-top: -62px;
+    }
   }
 }
 </style>
