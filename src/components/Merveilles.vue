@@ -1,17 +1,17 @@
 <template>
   <div class="merveilles">
-    <div class="container" ref="titleContainer">
+    <div class="container">
       <div class="left">
-        <img class="mausoleeHalicarnasse" src="../assets/02_sept_merveilles/mausoleeHalicarnasse.png"/>
-        <img class="pyramidesKeops" src="../assets/02_sept_merveilles/pyramidesKeops.png"/>
-        <img class="phareAlexendrie" src="../assets/02_sept_merveilles/phareAlexendrie.png"/>
-        <img class="colosseRhodes" src="../assets/02_sept_merveilles/colosseRhodes.png"/>
+        <img ref="hover1" class="mausoleeHalicarnasse" src="../../static/img/02_sept_merveilles/mausoleeHalicarnasse.png"/>
+        <img ref="hover2" class="pyramidesKeops" src="../../static/img/02_sept_merveilles/pyramidesKeops.png"/>
+        <img ref="hover3" class="phareAlexendrie" src="../../static/img/02_sept_merveilles/phareAlexendrie.png"/>
+        <img ref="hover4" class="colosseRhodes" src="../../static/img/02_sept_merveilles/colosseRhodes.png"/>
       </div>
       <div class="right">
-        <img class="statueZeus" src="../assets/02_sept_merveilles/statueZeus.png"/>
-        <img class="templeArthemis" src="../assets/02_sept_merveilles/templeArthemis.png"/>
-        <img class="jardinsSuspendues" src="../assets/02_sept_merveilles/jardinsSuspendues.png"/>
-        <span class="desc">Comment découvrir les 7 merveilles sous un nouvel angle? —</span>
+        <img ref="hover5" class="statueZeus" src="../../static/img/02_sept_merveilles/statueZeus.png"/>
+        <img ref="hover6" class="templeArthemis" src="../../static/img/02_sept_merveilles/templeArthemis.png"/>
+        <img ref="hover7" class="jardinsSuspendues" src="../../static/img/02_sept_merveilles/jardinsSuspendues.png"/>
+        <span ref="hover8" class="desc">Comment découvrir les 7 merveilles sous un nouvel angle? —</span>
       </div>
     </div>
     <span class="title" ref="titleHover" :class="{'titleVisible': isVisible}">les sept merveilles</span>
@@ -33,10 +33,58 @@ export default {
     }
     // ---- EVENT FOR HOVER ANIMATION ----
     if (!this.isMobile) {
-      this.$refs.titleContainer.addEventListener('mouseover', () => {
+      this.$refs.hover1.addEventListener('mouseover', () => {
         this.isVisible = true
       })
-      this.$refs.titleContainer.addEventListener('mouseleave', () => {
+      this.$refs.hover1.addEventListener('mouseleave', () => {
+        this.isVisible = false
+      })
+      this.$refs.hover2.addEventListener('mouseover', () => {
+        this.isVisible = true
+      })
+      this.$refs.hover2.addEventListener('mouseleave', () => {
+        this.isVisible = false
+      })
+      this.$refs.hover3.addEventListener('mouseover', () => {
+        this.isVisible = true
+      })
+      this.$refs.hover3.addEventListener('mouseleave', () => {
+        this.isVisible = false
+      })
+      this.$refs.hover4.addEventListener('mouseover', () => {
+        this.isVisible = true
+      })
+      this.$refs.hover4.addEventListener('mouseleave', () => {
+        this.isVisible = false
+      })
+      this.$refs.hover4.addEventListener('mouseover', () => {
+        this.isVisible = true
+      })
+      this.$refs.hover4.addEventListener('mouseleave', () => {
+        this.isVisible = false
+      })
+      this.$refs.hover5.addEventListener('mouseover', () => {
+        this.isVisible = true
+      })
+      this.$refs.hover5.addEventListener('mouseleave', () => {
+        this.isVisible = false
+      })
+      this.$refs.hover6.addEventListener('mouseover', () => {
+        this.isVisible = true
+      })
+      this.$refs.hover6.addEventListener('mouseleave', () => {
+        this.isVisible = false
+      })
+      this.$refs.hover7.addEventListener('mouseover', () => {
+        this.isVisible = true
+      })
+      this.$refs.hover7.addEventListener('mouseleave', () => {
+        this.isVisible = false
+      })
+      this.$refs.hover8.addEventListener('mouseover', () => {
+        this.isVisible = true
+      })
+      this.$refs.hover8.addEventListener('mouseleave', () => {
         this.isVisible = false
       })
       this.$refs.titleHover.addEventListener('mouseover', () => {
@@ -70,12 +118,11 @@ export default {
 }
 .merveilles {
   width: 100%;
-  position: absolute;
   top: 6.5vh;
   display: flex;
   justify-content: center;
   .container {
-    width: 100%;
+    width: 86%;
     display: flex;
     justify-content: space-between;
     @media (max-width: 890px) {
@@ -209,8 +256,8 @@ export default {
     }
   }
   .title {
-    width: 100%;
-    position: fixed;
+    width: 88%;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-self: center;
@@ -223,7 +270,6 @@ export default {
     font-size: 220px;
     line-height: normal;
     letter-spacing: 8px;
-    z-index: 1;
     @media (max-width: 2580px) {
       margin-top: -50px;
     }

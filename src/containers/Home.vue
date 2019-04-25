@@ -2,7 +2,10 @@
   <div class="home">
     <div>
       <nav-bar class="navbar"></nav-bar>
-      <merveilles></merveilles>
+      <div class="scroll">
+        <merveilles></merveilles>
+        <pensee></pensee>
+      </div>
       <svg class="logo" width="23" height="84" viewBox="0 0 23 84" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M17.387 46.85L17.387 49.8398L19.2635 49.8398L19.2635 46.85L17.387 46.85Z" fill="#B52DF5"/>
         <path d="M7.88808 66.8348L7.6722 67.4249L17.4534 67.4249L17.4534 67.1692C17.4534 65.6153 16.9718 65.0449 15.2614 65.0449L9.89747 65.0449C8.9675 65.0449 8.38628 65.4186 7.88808 66.8348ZM0 69.7656L-8.83112e-08 67.4249L6.95812 67.4249C7.32346 66.4611 6.99133 65.93 6.32707 65.7923L-1.94433e-07 64.6122L-2.84228e-07 62.2321L7.62238 63.9827L7.40649 65.8907L7.72202 65.93C8.4361 64.1204 9.38266 62.7042 11.4751 62.7042L15.9256 62.7042C18.3336 62.7042 19.2469 64.2581 19.2469 66.9529L19.2469 69.7656L0 69.7656Z" fill="#B52DF5"/>
@@ -19,12 +22,14 @@
 <script>
 import NavBar from '../components/NavBar'
 import Merveilles from '../components/Merveilles'
+import Pensee from '../components/Pensee'
 
 export default {
   name: 'home',
   components: {
     NavBar,
-    Merveilles
+    Merveilles,
+    Pensee
   },
   data () {
     return {}
@@ -36,6 +41,10 @@ export default {
   .home {
     width: 100%;
     position: relative;
+    .scroll {
+      display: flex;
+      flex-direction: column;
+    }
     .navbar {
         z-index: 1;
     }
