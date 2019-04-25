@@ -45,12 +45,31 @@ export default {
       left: 0px;
     }
   }
-  @media only screen and (max-width: 2580px) {
+  @media (max-width: 2580px) {
   .home {
     .logo {
-      position: fixed;
-      top: 122px;
-      left: 489px;
+      left: 12vw;
+    }
+  }
+}
+  @media (max-width: 1300px) {
+  .home {
+    .logo {
+      left: 9vw;
+    }
+  }
+}
+  @media (max-width: 1200px) {
+  .home {
+    .logo {
+      left: 5vw;
+    }
+  }
+}
+  @media (max-width: 1030px) {
+  .home {
+    .logo {
+      display: none;
     }
   }
 }
