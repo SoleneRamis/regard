@@ -5,6 +5,7 @@
       <div class="scroll">
         <merveilles></merveilles>
         <pensee></pensee>
+        <squad></squad>
       </div>
       <svg class="logo" width="23" height="84" viewBox="0 0 23 84" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M17.387 46.85L17.387 49.8398L19.2635 49.8398L19.2635 46.85L17.387 46.85Z" fill="#B52DF5"/>
@@ -23,13 +24,15 @@
 import NavBar from '../components/NavBar'
 import Merveilles from '../components/Merveilles'
 import Pensee from '../components/Pensee'
+import Squad from '../components/Squad'
 
 export default {
   name: 'home',
   components: {
     NavBar,
     Merveilles,
-    Pensee
+    Pensee,
+    Squad
   },
   data () {
     return {}

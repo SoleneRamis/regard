@@ -1,21 +1,40 @@
 <template>
-  <div class="pensee">
+  <div class="squad">
     <div class="container">
       <div class="left">
-        <img ref="hover1" class="mk2" src="../../static/img/03_pensee/mk2.png"/>
-        <img ref="hover2" class="gifPassport" src="../../static/img/03_pensee/GIF1.gif"/>
-        <img ref="hover3" class="pensee1" src="../../static/img/03_pensee/pensee_1.png"/>
+        <img ref="hover1" class="napoleon" src="../../static/img/04_ex_squad/Napoleon.png"/>
+        <span ref="hover2" class="descNapoleon">
+            <b>— Napoléon</b> <br>
+            Connaissances théoriques <br>
+            Connaissances tratégiques <br>
+            Équipement d’aventurier <br>
+            Érudit
+        </span>
+        <img ref="hover3" class="isis" src="../../static/img/04_ex_squad/Isis.png"/>
+        <span ref="hover4" class="descIsis">
+            <b>— Isis</b> <br>
+            Femme de la mythologie égyptienne <br>
+            Lit les hiéroglyphes <br>
+            Fait des enchantements <br>
+            Sûre d’elle
+        </span>
       </div>
       <div class="right">
-        <img ref="hover4" class="gifCarte" src="../../static/img/03_pensee/GIF2.gif"/>
-        <span ref="hover5" class="leap"><b>Leap motion —</b> Mouvements <br> Changer d’incarnation <br> Ouvrir la map</span>
-        <img ref="hover6" class="pensee2" src="../../static/img/03_pensee/pensee_2.png"/>
-        <img ref="hover7" class="pensee3" src="../../static/img/03_pensee/pensee_3.png"/>
-        <span ref="hover8" class="casquevr"><b>Casque VR — </b>  <br> Déplacement <br> Pointer/ selectionner <br> Immersion</span>
-        <div ref="hover9" class="concept">
-          <p>Jeu qui permet d’explorer les 7 merveilles du monde à travers différents regards.</p>
-          <p>Sélectionner le bon personnage afin de résoudre les énigmes et ainsi accéder aux merveilles suivantes.</p>
-        </div>
+        <img ref="hover5" class="kefera" src="../../static/img/04_ex_squad/Kefera.png"/>
+        <span ref="hover6" class="descKefera">
+            <b>Kéfera —</b> <br>
+            Voit dans le noir <br>
+            Rassurant <br>
+            Vision basse
+        </span>
+        <img ref="hover6" class="dali" src="../../static/img/04_ex_squad/Dali.png"/>
+        <span ref="hover7" class="descDali">
+            <b>Dalì —</b> <br>
+            Imaginaire surdéveloppé <br>
+            Surinterprète les lieux <br>
+            Fou/ délirant <br>
+            Hallucinations
+        </span>
       </div>
     </div>
     <span class="title" ref="titleHover" :class="{'titleVisible': isVisible}">"pensée"</span>
@@ -24,7 +43,7 @@
 
 <script>
 export default {
-  name: 'Pensee',
+  name: 'Squad',
   data () {
     return {
       isVisible: false,
@@ -136,7 +155,7 @@ export default {
   font-family: "Prophet Regular";
   src: url("../assets/fonts/prophet_regular.woff") format("woff");
 }
-.pensee {
+.squad {
   width: 100%;
   margin-top: 0;
   display: flex;
@@ -161,39 +180,50 @@ export default {
         height: auto;
         align-items: center;
       }
-      .mk2 {
+      .napoleon {
         width: 355px;
         height: 228px;
         margin-right: 7px;
         margin-bottom: 14px;
         @media (max-width: 890px) {
-          width: 323px;
-          height: 195px;
-          margin-right: -5px;
+          margin-right: 0;
         }
       }
-      .gifPassport {
-        width: 158px;
-        height: 158px;
-        margin-right: 278px;
+      .descNapoleon {
+        width: 321px;
+        height: 107px;
+        margin-right: 334px;
+        margin-bottom: 72px;
+        margin-top: -179px;
+        font-family: "Prophet Regular";
+        font-size: 15px;
+        line-height: 21px;
+        text-align: right;
+        @media (max-width: 890px) {
+          margin-right: 0;
+        }
+      }
+      .isis {
+        width: 209px;
+        height: 209px;
+        margin-right: 7px;
         margin-bottom: 14px;
         @media (max-width: 890px) {
           margin-right: -4px;
-          width: 323px;
-          height: 323px;
         }
       }
-      .pensee1 {
-        width: 257px;
-        height: 346px;
-        margin-right: 7px;
+      .descIsis {
+        width: 321px;
+        height: 107px;
+        margin-right: 230px;
         margin-bottom: 14px;
-        margin-top: -172px;
+        margin-top: -121px;
+        font-family: "Prophet Regular";
+        font-size: 15px;
+        line-height: 21px;
+        text-align: right;
         @media (max-width: 890px) {
-          width: 324px;
-          height: 435px;
-          margin-right: -5px;
-          margin-top: 0;
+          margin-right: 0;
         }
       }
     }
@@ -208,24 +238,22 @@ export default {
         align-items: center;
         flex-direction: column;
       }
-      .gifCarte {
-        width: 150px;
+      .kefera {
+        width: 280px;
         height: 150px;
-        margin-left: 62px;
+        margin-left: 7px;
         margin-bottom: 14px;
         @media (max-width: 890px) {
-          width: 325px;
-          height: 325px;
           margin-right: -5px;
           margin-bottom: 14px;
-          margin-left: 0;
         }
       }
-      .leap {
+      .descKefera {
         width: 164px;
-        margin-left: 226px;
+        margin-left: 301px;
         margin-bottom: 14px;
         margin-top: -102px;
+        font-size: 15px;
         font-family: "Prophet Regular";
         line-height: 21px;
         text-align: left;
@@ -236,64 +264,26 @@ export default {
           margin-left: 0;
         }
       }
-      .pensee2 {
-        width: 371px;
-        height: 123px;
-        margin-left: 7px;
+      .dali {
+        width: 355px;
+        height: 353px;
+        margin-left: 73px;
         margin-bottom: 14px;
         @media (max-width: 890px) {
-          width: 322px;
           margin-right: 0;
-          margin-bottom: 14px;
         }
       }
-      .pensee3 {
-        width: 246px;
-        height: 286px;
-        margin-left: 7px;
-        margin-bottom: 14px;
-        @media (max-width: 890px) {
-          width: 322px;
-          margin-right: 0;
-          margin-bottom: 14px;
-        }
-      }
-      .casquevr {
-        width: 315px;
-        height: 86px;
-        margin-left: 267px;
-        margin-top: -300px;
-        font-family: "Prophet Regular";
-        font-size: 15px;
-        line-height: normal;
-        text-align: left;
-        margin-bottom: 14px;
-        @media (max-width: 890px) {
-          margin-top: 0;
-          margin-right: 0;
-          margin-left: 0;
-        }
-      }
-      .concept {
-        width: 399px;
-        height: 192px;
-        border: 1.5px solid $purple;
-        box-sizing: border-box;
-        margin-left: 7px;
-        margin-top: 200px;
+      .descDali {
+        width: 185px;
+        height: 107px;
+        margin-left: 365px;
+        margin-top: -252px;
         margin-bottom: 14px;
         font-family: "Prophet Regular";
-        color: $purple;
-        font-size: 19px;
-        line-height: 27px;
+        line-height: 21px;
         text-align: left;
-        padding: 0px 15px;
         @media (max-width: 890px) {
-          margin-top: 0;
-          margin-right: -7px;
-          margin-left: 0;
-          width: 325px;
-          height: 245px;
+          margin-right: 0;
         }
       }
     }

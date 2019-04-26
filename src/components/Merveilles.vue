@@ -11,7 +11,7 @@
         <img ref="hover5" class="statueZeus" src="../../static/img/02_sept_merveilles/statueZeus.png"/>
         <img ref="hover6" class="templeArthemis" src="../../static/img/02_sept_merveilles/templeArthemis.png"/>
         <img ref="hover7" class="jardinsSuspendues" src="../../static/img/02_sept_merveilles/jardinsSuspendues.png"/>
-        <span ref="hover8" class="desc">Comment découvrir les 7 merveilles sous un nouvel angle? —</span>
+        <span ref="hover8" class="desc">Comment découvrir les 7 merveilles <br> sous un nouvel angle? —</span>
       </div>
     </div>
     <span class="title" ref="titleHover" :class="{'titleVisible': isVisible}">les sept merveilles</span>
@@ -94,7 +94,16 @@ export default {
         this.isVisible = false
       })
     } else {
-      this.$refs.titleContainer.addEventListener('click', this.handleclick)
+      this.$refs.hover1.addEventListener('click', this.handleclick)
+      this.$refs.hover2.addEventListener('click', this.handleclick)
+      this.$refs.hover3.addEventListener('click', this.handleclick)
+      this.$refs.hover4.addEventListener('click', this.handleclick)
+      this.$refs.hover4.addEventListener('click', this.handleclick)
+      this.$refs.hover5.addEventListener('click', this.handleclick)
+      this.$refs.hover6.addEventListener('click', this.handleclick)
+      this.$refs.hover7.addEventListener('click', this.handleclick)
+      this.$refs.hover8.addEventListener('click', this.handleclick)
+      this.$refs.titleHover.addEventListener('click', this.handleclick)
     }
   },
   methods: {
@@ -118,7 +127,7 @@ export default {
 }
 .merveilles {
   width: 100%;
-  top: 6.5vh;
+  margin-top: 10.5vh;
   display: flex;
   justify-content: center;
   .container {
@@ -178,7 +187,7 @@ export default {
         margin-bottom: 14px;
         @media (max-width: 890px) {
           width: 324px;
-          height: 560px;
+          height: 640px;
           margin-right: 0;
           margin-top: 0px;
         }
@@ -233,24 +242,16 @@ export default {
       .desc {
         margin-left: 283px;
         margin-top: -276px;
-        width: 272px;
+        width: 312px;
         font-family: "Prophet Regular";
         font-size: 15px;
-        line-height: normal;
-        text-align: start;
-        @media (max-width: 1045px) {
-          width: 55%;
-        }
+        line-height: 21px;
+        text-align: left;
+        margin-bottom: 14px;
         @media (max-width: 890px) {
-          width: 31%;
           margin-top: 0;
           margin-right: 0;
-          margin-bottom: 14px;
-          margin-left: -39px;
-        }
-        @media (max-width: 440px) {
-          width: 62%;
-          margin-left: -56px;
+          margin-left: 0;
         }
       }
     }
