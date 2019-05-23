@@ -41,6 +41,7 @@
           <path d="M9.48837 36V19.4722H2L13.7674 2L25 19.4722H17.5116V36H9.48837Z" stroke="#ffffff" stroke-width="2"/>
         </svg>
       </div>
+      <p class="made">MADE IN GOBELINS - 2018. 2019</p>
     </div>
   </div>
 </template>
@@ -107,8 +108,8 @@ export default {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    @media (max-width: 1110px) {
-      justify-content: center;
+    @media (max-width: 890px) {
+      justify-content: flex-start;
       align-items: center;
       flex-direction: column;
     }
@@ -118,20 +119,21 @@ export default {
       display: flex;
       flex-direction: column;
       align-items: flex-end;
-      @media (max-width: 1110px) {
+      @media (max-width: 890px) {
         width: 100%;
         height: auto;
         align-items: center;
       }
       .off1l {
-        // width: 268px;
-        // height: 300px;
+        width: 416px;
+        height: 138px;
         margin-right: 7px;
         margin-bottom: 14px;
         margin-top: 55px;
-        @media (max-width: 1110px) {
-          // width: 295px;
-          // height: 326px;
+        @media (max-width: 890px) {
+          margin-top: 54px;
+          width: 315px;
+          height: 106px;
           margin-right: 0px;
         }
       }
@@ -140,10 +142,11 @@ export default {
         margin-right: 7px;
         margin-top: 137px;
         margin-bottom: 14px;
-        @media (max-width: 1110px) {
-          margin-right: 0;
-          width: 296px;
-          height: 177px;
+        @media (max-width: 890px) {
+          margin-right: -7px;
+          width: 306px;
+          height: 547px;
+          object-fit: cover;
           margin-top: 0;
         }
       }
@@ -153,11 +156,10 @@ export default {
         margin-right: 7px;
         margin-bottom: 14px;
         object-fit: cover;
-        @media (max-width: 1110px) {
-          margin-right: 0;
-          width: 296px;
+        @media (max-width: 890px) {
+          margin-right: -6px;
+          width: 304px;
           height: 177px;
-          margin-top: 0;
         }
       }
       .off4l {
@@ -166,11 +168,10 @@ export default {
         margin-right: 137px;
         margin-bottom: 14px;
         object-fit: cover;
-        @media (max-width: 1110px) {
-          margin-right: 0;
-          width: 296px;
-          height: 177px;
-          margin-top: 0;
+        @media (max-width: 890px) {
+          margin-right: -4px;
+          width: 302px;
+          height: 127px;
         }
       }
       .off5l {
@@ -179,7 +180,7 @@ export default {
         margin-bottom: 14px;
         margin-right: 7px;
         object-fit: cover;
-        @media (max-width: 1110px) {
+        @media (max-width: 890px) {
           margin-right: 0;
           width: 296px;
           height: 177px;
@@ -191,10 +192,11 @@ export default {
         margin-bottom: 14px;
         margin-right: 7px;
         margin-top: 195px;
-        @media (max-width: 1110px) {
+        @media (max-width: 890px) {
           margin-right: 0;
           width: 296px;
-          height: 177px;
+          height: 522px;
+          object-fit: cover;
           margin-top: 0;
         }
       }
@@ -204,7 +206,7 @@ export default {
         margin-bottom: 14px;
         margin-right: 7px;
         object-fit: cover;
-        @media (max-width: 1110px) {
+        @media (max-width: 890px) {
           margin-right: 0;
           width: 296px;
           height: 177px;
@@ -212,28 +214,28 @@ export default {
         }
       }
       .off8l {
-        width: 240px;
-        height: 400px;
-        margin-right: 293px;
-        margin-top: 40px;
+        width: 210px;
+        height: 340px;
+        margin-right: 261px;
+        margin-top: 126px;
         margin-bottom: 14px;
-        @media (max-width: 1110px) {
+        @media (max-width: 890px) {
           margin-right: 0;
           width: 296px;
-          height: 177px;
+          height: 418px;
           margin-top: 0;
         }
       }
       .off9l {
-        width: 272px;
-        height: 400px;
+        width: 240px;
+        height: 340px;
         margin-right: 7px;
-        margin-top: -414px;
+        margin-top: -354px;
         margin-bottom: 14px;
-        @media (max-width: 1110px) {
+        @media (max-width: 890px) {
           margin-right: 0;
-          width: 296px;
-          height: 177px;
+          width: 295px;
+          height: 438px;
           margin-top: 0;
         }
       }
@@ -243,7 +245,7 @@ export default {
       height: 100%;
       display: flex;
       flex-direction: column;
-      @media (max-width: 1110px) {
+      @media (max-width: 890px) {
         width: 100%;
         height: auto;
         align-items: center;
@@ -255,12 +257,12 @@ export default {
         margin-top: 55px;
         margin-left: 7px;
         margin-bottom: 14px;
-        @media (max-width: 1110px) {
+        @media (max-width: 890px) {
           margin-right: 4px;
           margin-top: 0;
           margin-bottom: 14px;
-          // width: 300px;
-          // height: 208px;
+          width: 298px;
+          height: 176px;
         }
       }
       .off2r {
@@ -268,11 +270,12 @@ export default {
         height: 492px;
         margin-left: 7px;
         margin-bottom: 14px;
-        @media (max-width: 1110px) {
-          margin-right: 0;
-          width: 296px;
-          height: 177px;
+        @media (max-width: 890px) {
+          margin-right: 6px;
+          width: 295px;
+          height: 527px;
           margin-top: 0;
+          object-fit: cover;
         }
       }
       .off3r {
@@ -280,10 +283,10 @@ export default {
         height: 278px;
         margin-left: 238px;
         margin-bottom: 14px;
-        @media (max-width: 1110px) {
-          margin-right: 0;
-          width: 296px;
-          height: 177px;
+        @media (max-width: 890px) {
+          margin-right: 240px;
+          width: 295px;
+          height: 336px;
           margin-top: 0;
         }
       }
@@ -293,10 +296,10 @@ export default {
         margin-left: 7px;
         margin-top: -80px;
         margin-bottom: 14px;
-        @media (max-width: 1110px) {
-          margin-right: 0;
-          width: 296px;
-          height: 177px;
+        @media (max-width: 890px) {
+          margin-right: 10px;
+          width: 294px;
+          height: 458px;
           margin-top: 0;
         }
       }
@@ -307,10 +310,10 @@ export default {
         margin-top: -178px;
         margin-bottom: 14px;
         object-fit: cover;
-        @media (max-width: 1110px) {
-          margin-right: 0;
-          width: 296px;
-          height: 177px;
+        @media (max-width: 890px) {
+          margin-right: 210px;
+          width: 293px;
+          height: 217px;
           margin-top: 0;
         }
       }
@@ -319,10 +322,10 @@ export default {
         height: 234px;
         margin-left: 7px;
         margin-bottom: 14px;
-        @media (max-width: 1110px) {
-          margin-right: 0;
-          width: 296px;
-          height: 177px;
+        @media (max-width: 890px) {
+          margin-right: 10px;
+          width: 294px;
+          height: 167px;
           margin-top: 0;
         }
       }
@@ -331,10 +334,10 @@ export default {
         height: 497px;
         margin-left: 220px;
         margin-bottom: 14px;
-        @media (max-width: 1110px) {
-          margin-right: 0;
-          width: 296px;
-          height: 177px;
+        @media (max-width: 890px) {
+          margin-right: 222px;
+          width: 293px;
+          height: 417px;
           margin-top: 0;
         }
       }
@@ -344,10 +347,10 @@ export default {
         margin-left: 7px;
         margin-bottom: 14px;
         object-fit: cover;
-        @media (max-width: 1110px) {
-          margin-right: 0;
-          width: 296px;
-          height: 177px;
+        @media (max-width: 890px) {
+          margin-right: 10px;
+          width: 294px;
+          height: 127px;
           margin-top: 0;
         }
       }
@@ -357,36 +360,37 @@ export default {
         margin-left: 7px;
         margin-bottom: 14px;
         object-fit: cover;
-        @media (max-width: 1110px) {
-          margin-right: 0;
-          width: 296px;
-          height: 177px;
+        @media (max-width: 890px) {
+          margin-right: 10px;
+          width: 294px;
+          height: 298px;
           margin-top: 0;
         }
       }
       .off10r {
-        width: 342px;
-        height: 612px;
-        margin-left: 317px;
+        width: 250px;
+        height: 452px;
+        margin-left: 274px;
         margin-top: -170px;
         margin-bottom: 14px;
-        @media (max-width: 1110px) {
-          margin-right: 0;
-          width: 296px;
-          height: 177px;
+        @media (max-width: 890px) {
+          margin-right: 276px;
+          width: 294px;
+          height: 527px;
           margin-top: 0;
+          object-fit: cover;
         }
       }
       .off11r {
-        width: 227px;
-        height: 362px;
-        margin-left: 68px;
-        margin-top: -456px;
+        width: 197px;
+        height: 312px;
+        margin-left: 53px;
+        margin-top: -156px;
         margin-bottom: 14px;
-        @media (max-width: 1110px) {
-          margin-right: 0;
+        @media (max-width: 890px) {
+          margin-right: 53px;
           width: 296px;
-          height: 177px;
+          height: 437px;
           margin-top: 0;
         }
       }
@@ -397,23 +401,48 @@ export default {
         margin-top: 110px;
         margin-bottom: 14px;
         object-fit: cover;
-        @media (max-width: 1110px) {
-          margin-right: 0;
+        @media (max-width: 890px) {
+          margin-right: 7px;
           width: 296px;
-          height: 177px;
+          height: 527px;
           margin-top: 0;
+          object-fit: cover;
         }
       }
     }
   }
   .toparrow {
-    display: block;
     position: absolute;
-    bottom: -270%;
+    bottom: -390%;
     right: 6%;
-    @media (max-width: 510px) {
-      bottom: -214%;
+    @media (max-width: 890px) {
+      bottom: auto;
+      margin-top: 13px;
       right: 48%;
+    }
+  }
+  .made {
+    color: white;
+    font-family: "Prophet Regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 110px;
+    padding-bottom: 14px;
+    @media (max-width: 1440px) {
+      position: absolute;
+      bottom: -401%;
+      width: 100%;
+    }
+    @media (max-width: 890px) {
+      position: static;
+      margin-top: 80px;
+    }
+    @media (max-width: 510px) {
+      margin-top: 80px;
+      margin-bottom: 14px;
     }
   }
 }

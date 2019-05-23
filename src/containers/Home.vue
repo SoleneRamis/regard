@@ -23,6 +23,7 @@
         </svg>
       </div>
     </div>
+    <p class="made">MADE IN GOBELINS - 2018. 2019</p>
   </div>
 </template>
 
@@ -55,6 +56,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "@/config.scss";
   .home {
     width: 100%;
     position: relative;
@@ -84,14 +86,28 @@ export default {
     }
     .toparrow {
       position: absolute;
-      bottom: -1%;
+      bottom: 1%;
       right: 6%;
       @media (max-width: 890px) {
-        bottom: 25px;
+        bottom: 70px;
+        right: 48%;
+      }
+    }
+    .made {
+      color: $purple;
+      font-family: "Prophet Regular";
+      font-size: 15px;
+      font-style: normal;
+      font-weight: normal;
+      line-height: 21px;
+      text-align: center;
+      margin-top: 110px;
+      padding-bottom: 14px;
+      @media (max-width: 890px) {
+        margin-top: 80px;
       }
       @media (max-width: 510px) {
-        bottom: -214%;
-        right: 48%;
+        margin-top: 80px;
       }
     }
   }

@@ -40,6 +40,7 @@
           <path d="M9.48837 36V19.4722H2L13.7674 2L25 19.4722H17.5116V36H9.48837Z" stroke="#B52DF5" stroke-width="2"/>
         </svg>
       </div>
+      <p class="made">MADE IN GOBELINS - 2018. 2019</p>
     </div>
   </div>
 </template>
@@ -302,16 +303,35 @@ export default {
     }
   }
   .toparrow {
-    display: none;
-    @media (max-width: 1110px) {
-      display: block;
+    position: absolute;
+    bottom: -47%;
+    right: 6%;
+    @media (max-width: 890px) {
+      bottom: -215%;
+      right: 48%;
+    }
+  }
+  .made {
+    color: $purple;
+    font-family: "Prophet Regular";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 110px;
+    padding-bottom: 14px;
+    @media (max-width: 1440px) {
       position: absolute;
-      bottom: -202%;
-      right: 6%;
+      bottom: -420px;
+      width: 100%;
+    }
+    @media (max-width: 890px) {
+      position: static;
+      margin-top: 80px;
     }
     @media (max-width: 510px) {
-      bottom: -214%;
-      right: 48%;
+      margin-top: 20px;
     }
   }
 }
