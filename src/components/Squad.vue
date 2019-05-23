@@ -37,7 +37,7 @@
         </span>
       </div>
     </div>
-    <span class="title" ref="titleHover" :class="{'titleVisible': isVisible}">"pensée"</span>
+    <span class="title" ref="titleHover" :class="{'titleVisible': isVisible}">"ex. squad"</span>
   </div>
 </template>
 
@@ -104,18 +104,6 @@ export default {
       this.$refs.hover7.addEventListener('mouseleave', () => {
         this.isVisible = false
       })
-      this.$refs.hover8.addEventListener('mouseover', () => {
-        this.isVisible = true
-      })
-      this.$refs.hover8.addEventListener('mouseleave', () => {
-        this.isVisible = false
-      })
-      this.$refs.hover9.addEventListener('mouseover', () => {
-        this.isVisible = true
-      })
-      this.$refs.hover9.addEventListener('mouseleave', () => {
-        this.isVisible = false
-      })
       this.$refs.titleHover.addEventListener('mouseover', () => {
         this.isVisible = true
       })
@@ -131,14 +119,13 @@ export default {
       this.$refs.hover5.addEventListener('click', this.handleclick)
       this.$refs.hover6.addEventListener('click', this.handleclick)
       this.$refs.hover7.addEventListener('click', this.handleclick)
-      this.$refs.hover8.addEventListener('click', this.handleclick)
-      this.$refs.hover9.addEventListener('click', this.handleclick)
       this.$refs.titleHover.addEventListener('click', this.handleclick)
     }
   },
   methods: {
     handleclick () {
-      this.isVisible = !this.isVisible
+      this.isVisible = true
+      setTimeout(() => { this.isVisible = false }, 2000)
     }
   }
 }
@@ -186,7 +173,9 @@ export default {
         margin-right: 7px;
         margin-bottom: 14px;
         @media (max-width: 890px) {
-          margin-right: 0;
+          margin-right: -6px;
+          width: 324px;
+          height: 203px;
         }
       }
       .descNapoleon {
@@ -200,7 +189,9 @@ export default {
         line-height: 21px;
         text-align: right;
         @media (max-width: 890px) {
-          margin-right: 0;
+          margin-right: -7px;
+          margin-top: 0;
+          margin-bottom: 14px;
         }
       }
       .isis {
@@ -209,7 +200,9 @@ export default {
         margin-right: 7px;
         margin-bottom: 14px;
         @media (max-width: 890px) {
-          margin-right: -4px;
+          margin-right: -6px;
+          width: 320px;
+          height: 320px;
         }
       }
       .descIsis {
@@ -223,7 +216,8 @@ export default {
         line-height: 21px;
         text-align: right;
         @media (max-width: 890px) {
-          margin-right: 0;
+          margin-right: -4px;
+          margin-top: 0;
         }
       }
     }
@@ -246,6 +240,8 @@ export default {
         @media (max-width: 890px) {
           margin-right: -5px;
           margin-bottom: 14px;
+          width: 320px;
+          height: 195px;
         }
       }
       .descKefera {
@@ -258,10 +254,9 @@ export default {
         line-height: 21px;
         text-align: left;
         @media (max-width: 890px) {
-          width: 322px;
           margin-bottom: 14px;
           margin-top: 0;
-          margin-left: 0;
+          margin-left: -141px;
         }
       }
       .dali {
@@ -270,7 +265,9 @@ export default {
         margin-left: 73px;
         margin-bottom: 14px;
         @media (max-width: 890px) {
-          margin-right: 0;
+          margin-right: 59px;
+          width: 322px;
+          height: 322px;
         }
       }
       .descDali {
@@ -284,6 +281,8 @@ export default {
         text-align: left;
         @media (max-width: 890px) {
           margin-right: 0;
+          margin-top: 0;
+          margin-left: -120px;
         }
       }
     }
@@ -310,22 +309,18 @@ export default {
     @media (max-width: 1200px) {
       margin-top: -18vh;
     }
-     @media (max-width: 890px) {
-      align-self: flex-start;
-      margin-top: 95px;
-      font-size: 170px;
-     }
-     @media (max-width: 440px) {
-      margin-top: 142px;
-      font-size: 113px;
-     }
   }
   .titleVisible {
     visibility: visible;
-    @media (max-width: 440px) {
+     @media (max-width: 890px) {
       position: fixed;
-      top: 0;
-    }
+      top: 485px;
+      font-size: 170px;
+     }
+     @media (max-width: 500px) {
+        top: 480px;
+        font-size: 100px;
+     }
   }
 }
 </style>

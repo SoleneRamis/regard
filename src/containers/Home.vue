@@ -3,6 +3,7 @@
     <div>
       <nav-bar class="navbar"></nav-bar>
       <div class="scroll">
+        <beaute></beaute>
         <merveilles></merveilles>
         <pensee></pensee>
         <squad></squad>
@@ -16,26 +17,39 @@
         <path d="M0 8.17969L19.2469 2.71151L19.2469 0.960907L-9.57322e-08 5.6423L0 8.17969Z" fill="#B52DF5"/>
         <path d="M0 83.2197L19.2469 78.5383L19.2469 76.0009L-6.60479e-08 81.4691L0 83.2197Z" fill="#B52DF5"/>
       </svg>
+      <div @click="Top">
+        <svg width="27" height="37" viewBox="0 0 27 37" fill="none" class="toparrow" xmlns="http://www.w3.org/2000/svg">
+          <path d="M9.48837 36V19.4722H2L13.7674 2L25 19.4722H17.5116V36H9.48837Z" stroke="#B52DF5" stroke-width="2"/>
+        </svg>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 import NavBar from '../components/NavBar'
+import Beaute from '../components/Beaute'
 import Merveilles from '../components/Merveilles'
 import Pensee from '../components/Pensee'
 import Squad from '../components/Squad'
 
 export default {
-  name: 'home',
+  name: 'Home',
   components: {
     NavBar,
+    Beaute,
     Merveilles,
     Pensee,
     Squad
   },
   data () {
     return {}
+  },
+  methods: {
+    Top () {
+      document.body.scrollTop = 0
+      document.documentElement.scrollTop = 0
+    }
   }
 }
 </script>
@@ -55,34 +69,30 @@ export default {
       position: fixed;
       top: 292px;
       left: 0px;
+      @media (max-width: 2580px) {
+        left: 12vw;
+      }
+      @media (max-width: 1300px) {
+        left: 9vw;
+      }
+      @media (max-width: 1200px) {
+        left: 5vw;
+      }
+      @media (max-width: 1030px) {
+        display: none;
+      }
+    }
+    .toparrow {
+      position: absolute;
+      bottom: -1%;
+      right: 6%;
+      @media (max-width: 890px) {
+        bottom: 25px;
+      }
+      @media (max-width: 510px) {
+        bottom: -214%;
+        right: 48%;
+      }
     }
   }
-  @media (max-width: 2580px) {
-  .home {
-    .logo {
-      left: 12vw;
-    }
-  }
-}
-  @media (max-width: 1300px) {
-  .home {
-    .logo {
-      left: 9vw;
-    }
-  }
-}
-  @media (max-width: 1200px) {
-  .home {
-    .logo {
-      left: 5vw;
-    }
-  }
-}
-  @media (max-width: 1030px) {
-  .home {
-    .logo {
-      display: none;
-    }
-  }
-}
 </style>

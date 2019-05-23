@@ -119,7 +119,8 @@ export default {
   },
   methods: {
     handleclick () {
-      this.isVisible = !this.isVisible
+      this.isVisible = true
+      setTimeout(() => { this.isVisible = false }, 2000)
     }
   }
 }
@@ -320,22 +321,18 @@ export default {
     @media (max-width: 1200px) {
       margin-top: -18vh;
     }
-     @media (max-width: 890px) {
-      align-self: flex-start;
-      margin-top: 95px;
-      font-size: 170px;
-     }
-     @media (max-width: 440px) {
-      margin-top: 142px;
-      font-size: 113px;
-     }
   }
   .titleVisible {
     visibility: visible;
-    @media (max-width: 440px) {
+     @media (max-width: 890px) {
       position: fixed;
-      top: 0;
-    }
+      top: 435px;
+      font-size: 195px;
+     }
+     @media (max-width: 500px) {
+      top: 415px;
+      font-size: 140px;
+     }
   }
 }
 </style>

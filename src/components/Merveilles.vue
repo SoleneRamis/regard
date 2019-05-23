@@ -108,7 +108,8 @@ export default {
   },
   methods: {
     handleclick () {
-      this.isVisible = !this.isVisible
+      this.isVisible = true
+      setTimeout(() => { this.isVisible = false }, 2000)
     }
   }
 }
@@ -127,7 +128,7 @@ export default {
 }
 .merveilles {
   width: 100%;
-  margin-top: 10.5vh;
+  margin-top: 14px;
   display: flex;
   justify-content: center;
   .container {
@@ -277,22 +278,20 @@ export default {
     @media (max-width: 1200px) {
       margin-top: -18vh;
     }
-     @media (max-width: 890px) {
-      align-self: flex-start;
-      margin-top: 95px;
-      font-size: 170px;
-     }
-     @media (max-width: 440px) {
-      margin-top: 142px;
-      font-size: 113px;
-     }
+
   }
   .titleVisible {
     visibility: visible;
-    @media (max-width: 440px) {
+    @media (max-width: 890px) {
       position: fixed;
-      top: 0;
-    }
+      top: 283px;
+      font-size: 170px;
+     }
+     @media (max-width: 500px) {
+      position: fixed;
+      top: 412px;
+      font-size: 120px;
+     }
   }
 }
 </style>
