@@ -60,6 +60,9 @@ export default {
   .home {
     width: 100%;
     position: relative;
+    @media (max-width: 500px) {
+      overflow-x: hidden;
+    }
     .scroll {
       display: flex;
       flex-direction: column;
