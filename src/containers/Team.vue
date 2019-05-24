@@ -117,8 +117,8 @@
             </div>
         </div>
       </div>
-      <div @click="Top">
-        <svg width="27" height="37" viewBox="0 0 27 37" fill="none" class="toparrow" xmlns="http://www.w3.org/2000/svg">
+      <div class="toparrow"  @click="Top">
+        <svg class="arrow" width="27" height="37" viewBox="0 0 27 37" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M9.48837 36V19.4722H2L13.7674 2L25 19.4722H17.5116V36H9.48837Z" stroke="#B52DF5" stroke-width="2"/>
         </svg>
       </div>
@@ -195,7 +195,6 @@ export default {
       display: flex;
       flex-direction: column;
       align-items: flex-end;
-      z-index: 1;
       @media (max-width: 1090px) {
         width: 100%;
         height: auto;
@@ -352,7 +351,6 @@ export default {
       height: 100%;
       display: flex;
       flex-direction: column;
-      z-index: 1;
       @media (max-width: 1090px) {
         width: 100%;
         height: auto;
@@ -461,28 +459,43 @@ export default {
       }
     }
   }
-  .toparrow {
-    position: absolute;
-    bottom: -47%;
-    right: 6%;
-    z-index: 1;
-    @media (max-width: 2560px) {
-      display: none;
-    }
-    @media (max-width: 1440px) {
-      display: initial;
-      bottom: -45%;
-      right: 14%;
-    }
-    @media (max-width: 1090px) {
-      bottom: -215%;
-      right: 48%;
-    }
-    @media (max-width: 414px) {
-      bottom: -278%;
-    }
-    @media (max-width: 375px) {
-      bottom: -312%;
+  // .toparrow {
+  //   position: absolute;
+  //   bottom: -47%;
+  //   right: 6%;
+  //   z-index: 1;
+  //   @media (max-width: 2560px) {
+  //     display: none;
+  //   }
+  //   @media (max-width: 1440px) {
+  //     display: initial;
+  //     bottom: -45%;
+  //     right: 14%;
+  //   }
+  //   @media (max-width: 1090px) {
+  //     bottom: -215%;
+  //     right: 48%;
+  //   }
+  //   @media (max-width: 414px) {
+  //     bottom: -278%;
+  //   }
+  //   @media (max-width: 375px) {
+  //     bottom: -312%;
+  //   }
+  // }
+    .toparrow {
+      width: 100%;
+      height: 100%;
+      display: contents;
+      .arrow {
+        @media (min-width: 1440px) {
+          position: absolute;
+          right: 6%;
+          bottom: -310px;
+        }
+        @media (max-width: 414px) {
+          height: 100%;
+        }
     }
   }
   .made {

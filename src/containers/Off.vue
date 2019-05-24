@@ -36,8 +36,8 @@
         <img class="off11r" src="../../static/img/off/off11r.png"/>
         <video class="off12r" preload controls Autoplay=autoplay loop src="../../static/img/off/off12r.mov"/>
       </div>
-      <div @click="Top">
-        <svg width="27" height="37" viewBox="0 0 27 37" fill="none" class="toparrow" xmlns="http://www.w3.org/2000/svg">
+      <div class="toparrow" @click="Top">
+        <svg class="arrow" width="27" height="37" viewBox="0 0 27 37" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M9.48837 36V19.4722H2L13.7674 2L25 19.4722H17.5116V36H9.48837Z" stroke="#ffffff" stroke-width="2"/>
         </svg>
       </div>
@@ -412,35 +412,65 @@ export default {
       }
     }
   }
-  .toparrow {
-      position: absolute;
-      bottom: -410%;
-      right: 14%;
-    @media (max-width: 2560px) {
-      bottom: -192%;
-      margin-top: 13px;
-      right: 20%;
-    }
-    @media (max-width: 1440px) {
-      bottom: -410%;
-      margin-top: 13px;
-      right: 14%;
-    }
-    @media (max-width: 1090px) {
-      bottom: -244%;
-      right: 45%;
-      margin-top: 13px;
-    }
-    @media (max-width: 414px) {
-      bottom: -1166%;
-    }
-    @media (max-width: 375px) {
-      bottom: -1278%;
-      z-index: -2;
-    }
-    @media (max-width: 268px) {
-      bottom: -1280%;
-      right: 45%;
+  // .toparrow {
+  //     position: absolute;
+  //     bottom: -410%;
+  //     right: 14%;
+  //   @media (max-width: 2560px) {
+  //     bottom: -192%;
+  //     margin-top: 13px;
+  //     right: 20%;
+  //   }
+  //   @media (max-width: 1440px) {
+  //     bottom: -410%;
+  //     margin-top: 13px;
+  //     right: 14%;
+  //   }
+  //   @media (max-width: 1090px) {
+  //     bottom: -244%;
+  //     right: 45%;
+  //     margin-top: 13px;
+  //   }
+  //   @media (max-width: 414px) {
+  //     bottom: -1166%;
+  //   }
+  //   @media (max-width: 375px) {
+  //     bottom: -1278%;
+  //     z-index: -2;
+  //   }
+  //   @media (max-width: 268px) {
+  //     bottom: -1280%;
+  //     right: 45%;
+  //   }
+  // }
+  // .toparrow {
+      margon-right: 6%;
+      // @media (max-width: 2560px) {
+      //   bottom: 2%;
+      //   right: 20%;
+      // }
+      // @media (max-width: 1440px) {
+      //   bottom: 2%;
+      //   right: 14%;
+      // }
+      // @media (max-width: 1090px) {
+      //   bottom: 70px;
+      //   right: 48%;
+      // }
+    // }
+    .toparrow {
+      width: 100%;
+      height: 100%;
+      display: contents;
+      .arrow {
+        @media (min-width: 1440px) {
+          position: absolute;
+          right: 6%;
+          bottom: -2950px;
+        }
+        @media (max-width: 414px) {
+          height: 100%;
+        }
     }
   }
   .made {
@@ -470,7 +500,7 @@ export default {
       margin-top: 80px;
     }
     @media (max-width: 510px) {
-      margin-top: 80px;
+      margin-top: 42px;
       margin-bottom: 14px;
     }
   }
