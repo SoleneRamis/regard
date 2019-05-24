@@ -44,6 +44,7 @@ export default {
   flex-direction: row;
   justify-content: space-around;
   background-color: white;
+  z-index: 3;
   .team {
     position: fixed;
     left: 370px;
