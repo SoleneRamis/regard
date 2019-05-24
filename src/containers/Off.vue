@@ -169,7 +169,7 @@ export default {
         @media (max-width: 1090px) {
           margin-right: -4px;
           width: 302px;
-          height: 127px;
+          height: 375px;
         }
       }
       .off5l {
