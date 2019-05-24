@@ -122,7 +122,7 @@
           <path d="M9.48837 36V19.4722H2L13.7674 2L25 19.4722H17.5116V36H9.48837Z" stroke="#B52DF5" stroke-width="2"/>
         </svg>
       </div>
-      <div @click="TopScroll">
+      <div @click="Top">
         <svg width="27" height="37" viewBox="0 0 27 37" fill="none" class="toparrowResponsive" xmlns="http://www.w3.org/2000/svg">
           <path d="M9.48837 36V19.4722H2L13.7674 2L25 19.4722H17.5116V36H9.48837Z" stroke="#B52DF5" stroke-width="2"/>
         </svg>
@@ -145,10 +145,6 @@ export default {
   },
   methods: {
     Top () {
-      document.body.scrollTop = 0
-      document.documentElement.scrollTop = 0
-    },
-    TopScroll () {
       document.body.scrollTop = 0
       document.documentElement.scrollTop = 0
     }
@@ -474,6 +470,7 @@ export default {
     position: absolute;
     bottom: -47%;
     right: 6%;
+    z-index: 1;
     @media (max-width: 2560px) {
       display: none;
     }
@@ -491,7 +488,6 @@ export default {
     }
     @media (max-width: 375px) {
       bottom: -312%;
-      z-index: 1;
     }
   }
   .toparrowResponsive {
