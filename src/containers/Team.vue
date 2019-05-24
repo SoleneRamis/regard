@@ -14,25 +14,107 @@
       <div class="left">
         <img class="mathias" src="../../static/img/team/mathias.png"/>
          <div class="descMathias">
-          <p>Mathias De Olivera <br> Développeur</p>
+            <p>Mathias De Olivera <br> Développeur</p>
+            <div class="reseauxMathias">
+              <a href="https://www.linkedin.com/in/mathiasdeoliveira/" target="_blank">
+                <svg class="linkedinMathias" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#B52DF5"/>
+                  <path d="M5.84365 8.53125H7.60928V14.2031H5.84365V8.53125ZM6.73428 5.71875C7.29678 5.71875 7.7499 6.17188 7.7499 6.73438C7.7499 7.29688 7.29678 7.75 6.73428 7.75C6.17178 7.75 5.71865 7.29688 5.71865 6.73438C5.70303 6.17188 6.15615 5.71875 6.73428 5.71875Z" fill="white"/>
+                  <path d="M8.71875 8.53223H10.4063V9.31348H10.4375C10.6719 8.86035 11.25 8.3916 12.1094 8.3916C13.8906 8.3916 14.2188 9.56348 14.2188 11.0947V14.2041H12.4531V11.4541C12.4531 10.7979 12.4375 9.9541 11.5313 9.9541C10.6094 9.9541 10.4688 10.6729 10.4688 11.4072V14.2041H8.71875V8.53223Z" fill="white"/>
+                </svg>
+              </a>
+            </div>
         </div>
         <img class="lola" src="../../static/img/team/lola.png"/>
          <div class="descLola">
             <p>Lola Berger <br> Designer</p>
+            <div class="reseauxLola">
+              <a href="https://www.instagram.com/berger_lola/" target="_blank">
+                <svg class="instaLola" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#B52DF5"/>
+                  <path d="M13.3125 9.34375H12.5625C12.6094 9.5625 12.6563 9.78125 12.6563 10C12.6563 11.4687 11.4688 12.6562 10 12.6562C8.53125 12.6562 7.34375 11.4687 7.34375 10C7.34375 9.76562 7.375 9.54687 7.4375 9.34375H6.6875V12.9844C6.6875 13.1719 6.82813 13.3125 7.01563 13.3125H12.9844C13.1719 13.3125 13.3125 13.1719 13.3125 12.9844V9.34375ZM13.3125 7.01562C13.3125 6.82812 13.1563 6.6875 12.9844 6.6875H11.9844C11.7969 6.6875 11.6562 6.82812 11.6562 7.01562V8.01562C11.6562 8.20312 11.7969 8.34375 11.9844 8.34375H12.9844C13.1719 8.34375 13.3125 8.20312 13.3125 8.01562V7.01562ZM10 8.34375C9.07812 8.34375 8.34375 9.07812 8.34375 10C8.34375 10.9219 9.07812 11.6562 10 11.6562C10.9219 11.6562 11.6562 10.9219 11.6562 10C11.6562 9.07812 10.9219 8.34375 10 8.34375ZM13.3125 14.3125H6.6875C6.14062 14.3125 5.6875 13.875 5.6875 13.3125V6.6875C5.6875 6.14062 6.125 5.6875 6.6875 5.6875H13.3125C13.8594 5.6875 14.3125 6.125 14.3125 6.6875V13.3125C14.3125 13.8594 13.8594 14.3125 13.3125 14.3125Z" fill="white"/>
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/in/lola-berger-948185110/" target="_blank">
+                <svg class="linkedinLola" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#B52DF5"/>
+                  <path d="M5.84365 8.53125H7.60928V14.2031H5.84365V8.53125ZM6.73428 5.71875C7.29678 5.71875 7.7499 6.17188 7.7499 6.73438C7.7499 7.29688 7.29678 7.75 6.73428 7.75C6.17178 7.75 5.71865 7.29688 5.71865 6.73438C5.70303 6.17188 6.15615 5.71875 6.73428 5.71875Z" fill="white"/>
+                  <path d="M8.71875 8.53223H10.4063V9.31348H10.4375C10.6719 8.86035 11.25 8.3916 12.1094 8.3916C13.8906 8.3916 14.2188 9.56348 14.2188 11.0947V14.2041H12.4531V11.4541C12.4531 10.7979 12.4375 9.9541 11.5313 9.9541C10.6094 9.9541 10.4688 10.6729 10.4688 11.4072V14.2041H8.71875V8.53223Z" fill="white"/>
+                </svg>
+              </a>
+            </div>
         </div>
         <img class="solene" src="../../static/img/team/solene.png"/>
         <div class="descSolene">
             <p>Solène <br> Développeuse</p>
+            <div class="reseauxSolene">
+              <a href="https://github.com/SoleneRamis" target="_blank">
+                <svg class="gitSolene" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#B52DF5"/>
+                  <path d="M10 4.53125C6.90625 4.53125 4.40625 7.03125 4.40625 10.125C4.40625 12.5938 6.01562 14.7031 8.23438 15.4375C8.51562 15.4844 8.60937 15.3125 8.60937 15.1719C8.60937 15.0312 8.60937 14.5938 8.60937 14.125C7.04687 14.4688 6.71875 13.4688 6.71875 13.4688C6.46875 12.8281 6.09375 12.6562 6.09375 12.6562C5.57812 12.3125 6.125 12.3125 6.125 12.3125C6.6875 12.3594 6.98438 12.8906 6.98438 12.8906C7.48438 13.75 8.29687 13.5 8.60937 13.3594C8.65625 13 8.8125 12.75 8.96875 12.6094C7.71875 12.4687 6.42187 11.9844 6.42187 9.84375C6.42187 9.23438 6.64062 8.73438 7 8.34375C6.9375 8.20313 6.75 7.64063 7.04687 6.85938C7.04687 6.85938 7.51562 6.70312 8.59375 7.4375C9.04688 7.3125 9.51562 7.25 10 7.25C10.4688 7.25 10.9531 7.3125 11.4062 7.4375C12.4688 6.71875 12.9375 6.85938 12.9375 6.85938C13.25 7.625 13.0469 8.20313 13 8.34375C13.3594 8.73438 13.5781 9.23438 13.5781 9.84375C13.5781 12 12.2656 12.4687 11.0156 12.6094C11.2188 12.7812 11.3906 13.125 11.3906 13.6406C11.3906 14.3906 11.3906 15 11.3906 15.1719C11.3906 15.3281 11.4844 15.5 11.7812 15.4375C14 14.7031 15.6094 12.5938 15.6094 10.125C15.5937 7.04688 13.0938 4.53125 10 4.53125Z" fill="white"/>
+                  <path d="M6.51563 12.5786C6.5 12.6099 6.45312 12.6099 6.42187 12.5942C6.375 12.5786 6.35938 12.5317 6.375 12.5161C6.39063 12.4849 6.4375 12.4849 6.46875 12.5005C6.51563 12.5161 6.53125 12.5474 6.51563 12.5786Z" fill="white"/>
+                  <path d="M6.74994 12.8288C6.71869 12.86 6.67182 12.8444 6.64057 12.7975C6.60932 12.7663 6.59369 12.7038 6.62494 12.6881C6.65619 12.6569 6.70307 12.6725 6.73432 12.7194C6.76557 12.7506 6.78119 12.8131 6.74994 12.8288Z" fill="white"/>
+                  <path d="M6.96875 13.1561C6.9375 13.1874 6.875 13.1561 6.84375 13.1093C6.8125 13.0624 6.8125 12.9999 6.84375 12.9686C6.875 12.9374 6.9375 12.9686 6.96875 13.0155C7 13.0624 7 13.1249 6.96875 13.1561Z" fill="white"/>
+                  <path d="M7.26577 13.469C7.23452 13.5003 7.17202 13.5003 7.12514 13.4534C7.07827 13.4065 7.06264 13.344 7.09389 13.3128C7.12514 13.2815 7.18764 13.2815 7.23452 13.3284C7.29702 13.3753 7.29702 13.4378 7.26577 13.469Z" fill="white"/>
+                  <path d="M7.6876 13.6406C7.67197 13.6875 7.60947 13.7031 7.54697 13.6875C7.48447 13.6719 7.4376 13.6094 7.45322 13.5781C7.46885 13.5313 7.53135 13.5156 7.59385 13.5312C7.65635 13.5469 7.70322 13.6094 7.6876 13.6406Z" fill="white"/>
+                  <path d="M8.14062 13.6876C8.14062 13.7345 8.09375 13.7658 8.01562 13.7658C7.95312 13.7658 7.89062 13.7345 7.89062 13.6876C7.89062 13.6408 7.9375 13.6095 8.01562 13.6095C8.09375 13.5939 8.14062 13.6408 8.14062 13.6876Z" fill="white"/>
+                  <path d="M8.57819 13.6095C8.59381 13.6564 8.54694 13.7033 8.46881 13.7189C8.40631 13.7345 8.34381 13.7033 8.32819 13.6564C8.31256 13.6095 8.35944 13.5627 8.43756 13.547C8.50006 13.5314 8.56256 13.5627 8.57819 13.6095Z" fill="white"/>
+                </svg>
+              </a>
+              <a href="https://twitter.com/soleneramis" target="_blank">
+                <svg class="twitterSolene" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#B52DF5"/>
+                  <path d="M15.5938 6.53125C15.1875 6.71875 14.7344 6.84375 14.2812 6.89062C14.75 6.60937 15.125 6.15625 15.2969 5.625C14.8594 5.89063 14.3594 6.07812 13.8437 6.1875C13.4219 5.73437 12.8281 5.46875 12.1719 5.46875C10.9062 5.46875 9.875 6.5 9.875 7.76563C9.875 7.95313 9.89062 8.125 9.9375 8.29688C8.03125 8.20312 6.32812 7.28125 5.20312 5.89063C5 6.23438 4.89062 6.625 4.89062 7.04687C4.89062 7.84375 5.29687 8.54688 5.90625 8.95313C5.53125 8.9375 5.17187 8.84375 4.85937 8.67188C4.85937 8.6875 4.85937 8.6875 4.85937 8.70313C4.85937 9.8125 5.65625 10.75 6.70312 10.9531C6.51562 11 6.3125 11.0313 6.09375 11.0313C5.95312 11.0313 5.79687 11.0156 5.65625 10.9844C5.95312 11.8906 6.79688 12.5625 7.79687 12.5781C7.01562 13.1875 6.01562 13.5625 4.9375 13.5625C4.75 13.5625 4.5625 13.5469 4.39062 13.5313C5.40625 14.1875 6.60937 14.5625 7.90625 14.5625C12.125 14.5625 14.4375 11.0625 14.4375 8.03125C14.4375 7.9375 14.4375 7.82813 14.4375 7.73438C14.9062 7.39063 15.2969 6.98438 15.5938 6.53125Z" fill="white"/>
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/in/soleneramis/" target="_blank">
+                <svg class="linkedinSolene" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#B52DF5"/>
+                  <path d="M5.84365 8.53125H7.60928V14.2031H5.84365V8.53125ZM6.73428 5.71875C7.29678 5.71875 7.7499 6.17188 7.7499 6.73438C7.7499 7.29688 7.29678 7.75 6.73428 7.75C6.17178 7.75 5.71865 7.29688 5.71865 6.73438C5.70303 6.17188 6.15615 5.71875 6.73428 5.71875Z" fill="white"/>
+                  <path d="M8.71875 8.53223H10.4063V9.31348H10.4375C10.6719 8.86035 11.25 8.3916 12.1094 8.3916C13.8906 8.3916 14.2188 9.56348 14.2188 11.0947V14.2041H12.4531V11.4541C12.4531 10.7979 12.4375 9.9541 11.5313 9.9541C10.6094 9.9541 10.4688 10.6729 10.4688 11.4072V14.2041H8.71875V8.53223Z" fill="white"/>
+                </svg>
+              </a>
+            </div>
         </div>
       </div>
       <div class="right">
         <img class="agathe" src="../../static/img/team/agathe.png"/>
         <div class="descAgathe">
-            <p>Agathe Fradet <br> Designer</p>
+          <p>Agathe Fradet <br> Designer</p>
+          <div class="reseauxAgathe">
+            <a href="https://www.instagram.com/agathe.fradet/" target="_blank">
+              <svg class="instaAgathe" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#B52DF5"/>
+                <path d="M13.3125 9.34375H12.5625C12.6094 9.5625 12.6563 9.78125 12.6563 10C12.6563 11.4687 11.4688 12.6562 10 12.6562C8.53125 12.6562 7.34375 11.4687 7.34375 10C7.34375 9.76562 7.375 9.54687 7.4375 9.34375H6.6875V12.9844C6.6875 13.1719 6.82813 13.3125 7.01563 13.3125H12.9844C13.1719 13.3125 13.3125 13.1719 13.3125 12.9844V9.34375ZM13.3125 7.01562C13.3125 6.82812 13.1563 6.6875 12.9844 6.6875H11.9844C11.7969 6.6875 11.6562 6.82812 11.6562 7.01562V8.01562C11.6562 8.20312 11.7969 8.34375 11.9844 8.34375H12.9844C13.1719 8.34375 13.3125 8.20312 13.3125 8.01562V7.01562ZM10 8.34375C9.07812 8.34375 8.34375 9.07812 8.34375 10C8.34375 10.9219 9.07812 11.6562 10 11.6562C10.9219 11.6562 11.6562 10.9219 11.6562 10C11.6562 9.07812 10.9219 8.34375 10 8.34375ZM13.3125 14.3125H6.6875C6.14062 14.3125 5.6875 13.875 5.6875 13.3125V6.6875C5.6875 6.14062 6.125 5.6875 6.6875 5.6875H13.3125C13.8594 5.6875 14.3125 6.125 14.3125 6.6875V13.3125C14.3125 13.8594 13.8594 14.3125 13.3125 14.3125Z" fill="white"/>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/agathe-fradet-07a121136/" target="_blank">
+              <svg class="linkedinAgathe" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#B52DF5"/>
+                <path d="M5.84365 8.53125H7.60928V14.2031H5.84365V8.53125ZM6.73428 5.71875C7.29678 5.71875 7.7499 6.17188 7.7499 6.73438C7.7499 7.29688 7.29678 7.75 6.73428 7.75C6.17178 7.75 5.71865 7.29688 5.71865 6.73438C5.70303 6.17188 6.15615 5.71875 6.73428 5.71875Z" fill="white"/>
+                <path d="M8.71875 8.53223H10.4063V9.31348H10.4375C10.6719 8.86035 11.25 8.3916 12.1094 8.3916C13.8906 8.3916 14.2188 9.56348 14.2188 11.0947V14.2041H12.4531V11.4541C12.4531 10.7979 12.4375 9.9541 11.5313 9.9541C10.6094 9.9541 10.4688 10.6729 10.4688 11.4072V14.2041H8.71875V8.53223Z" fill="white"/>
+              </svg>
+            </a>
+          </div>
         </div>
         <img class="nico" src="../../static/img/team/nico.png"/>
         <div class="descNico">
-            <p>Nicolas Michot <br> Développeur</p>
+          <p>Nicolas Michot <br> Développeur</p>
+          <div class="reseauxNico">
+              <a href="https://www.instagram.com/nicolasmht/" target="_blank">
+                <svg class="instaNico" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#B52DF5"/>
+                  <path d="M13.3125 9.34375H12.5625C12.6094 9.5625 12.6563 9.78125 12.6563 10C12.6563 11.4687 11.4688 12.6562 10 12.6562C8.53125 12.6562 7.34375 11.4687 7.34375 10C7.34375 9.76562 7.375 9.54687 7.4375 9.34375H6.6875V12.9844C6.6875 13.1719 6.82813 13.3125 7.01563 13.3125H12.9844C13.1719 13.3125 13.3125 13.1719 13.3125 12.9844V9.34375ZM13.3125 7.01562C13.3125 6.82812 13.1563 6.6875 12.9844 6.6875H11.9844C11.7969 6.6875 11.6562 6.82812 11.6562 7.01562V8.01562C11.6562 8.20312 11.7969 8.34375 11.9844 8.34375H12.9844C13.1719 8.34375 13.3125 8.20312 13.3125 8.01562V7.01562ZM10 8.34375C9.07812 8.34375 8.34375 9.07812 8.34375 10C8.34375 10.9219 9.07812 11.6562 10 11.6562C10.9219 11.6562 11.6562 10.9219 11.6562 10C11.6562 9.07812 10.9219 8.34375 10 8.34375ZM13.3125 14.3125H6.6875C6.14062 14.3125 5.6875 13.875 5.6875 13.3125V6.6875C5.6875 6.14062 6.125 5.6875 6.6875 5.6875H13.3125C13.8594 5.6875 14.3125 6.125 14.3125 6.6875V13.3125C14.3125 13.8594 13.8594 14.3125 13.3125 14.3125Z" fill="white"/>
+                </svg>
+              </a>
+              <a href="https://www.linkedin.com/in/nicolas-michot-a12082156/" target="_blank">
+                <svg class="linkedinNico" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#B52DF5"/>
+                  <path d="M5.84365 8.53125H7.60928V14.2031H5.84365V8.53125ZM6.73428 5.71875C7.29678 5.71875 7.7499 6.17188 7.7499 6.73438C7.7499 7.29688 7.29678 7.75 6.73428 7.75C6.17178 7.75 5.71865 7.29688 5.71865 6.73438C5.70303 6.17188 6.15615 5.71875 6.73428 5.71875Z" fill="white"/>
+                  <path d="M8.71875 8.53223H10.4063V9.31348H10.4375C10.6719 8.86035 11.25 8.3916 12.1094 8.3916C13.8906 8.3916 14.2188 9.56348 14.2188 11.0947V14.2041H12.4531V11.4541C12.4531 10.7979 12.4375 9.9541 11.5313 9.9541C10.6094 9.9541 10.4688 10.6729 10.4688 11.4072V14.2041H8.71875V8.53223Z" fill="white"/>
+                </svg>
+              </a>
+            </div>
         </div>
       </div>
       <div @click="Top">
@@ -102,7 +184,7 @@ export default {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    @media (max-width: 1110px) {
+    @media (max-width: 1090px) {
       justify-content: center;
       align-items: center;
       flex-direction: column;
@@ -113,7 +195,7 @@ export default {
       display: flex;
       flex-direction: column;
       align-items: flex-end;
-      @media (max-width: 1110px) {
+      @media (max-width: 1090px) {
         width: 100%;
         height: auto;
         align-items: center;
@@ -124,7 +206,7 @@ export default {
         margin-right: 117px;
         margin-bottom: 14px;
         margin-top: 55px;
-        @media (max-width: 1110px) {
+        @media (max-width: 1090px) {
           width: 295px;
           height: 326px;
           margin-right: 0px;
@@ -144,11 +226,23 @@ export default {
         line-height: 27px;
         text-align: left;
         padding: 0px 15px;
-        @media (max-width: 1110px) {
+        @media (max-width: 1090px) {
           margin-top: 0;
           margin-right: 8px;
           width: 297px;
           margin-bottom: 14px;
+        }
+        .reseauxMathias {
+          display: flex;
+          margin-top: -12px;
+          margin-left: 152px;
+          flex-direction: row;
+          .linkedinMathias {
+            margin-left: 5px;
+          }
+          @media (max-width: 1090px) {
+            margin-left: 243px;
+          }
         }
       }
       .lola {
@@ -157,7 +251,7 @@ export default {
         margin-right: 7px;
         margin-bottom: 14px;
         margin-top: 34px;
-        @media (max-width: 1110px) {
+        @media (max-width: 1090px) {
           margin-right: 0;
           width: 296px;
           height: 177px;
@@ -178,11 +272,26 @@ export default {
         line-height: 27px;
         text-align: left;
         padding: 0px 15px;
-        @media (max-width: 1110px) {
+        @media (max-width: 1090px) {
           margin-top: 0;
           margin-right: 8px;
           width: 297px;
           margin-bottom: 14px;
+        }
+        .reseauxLola {
+          display: flex;
+          margin-top: -5px;
+          margin-left: 62px;
+          flex-direction: row;
+          @media (max-width: 1090px) {
+            margin-left: 218px;
+          }
+          .linkedinLola {
+            margin-left: 5px;
+          }
+          .instaLola {
+            margin-left: 5px;
+          }
         }
       }
       .solene {
@@ -191,7 +300,7 @@ export default {
         margin-right: 7px;
         margin-bottom: 14px;
         margin-top: 21px;
-        @media (max-width: 1110px) {
+        @media (max-width: 1090px) {
           margin-right: -2px;
           margin-top: 0;
           width: 299px;
@@ -211,11 +320,29 @@ export default {
         line-height: 27px;
         text-align: left;
         padding: 0px 15px;
-        @media (max-width: 1110px) {
+        @media (max-width: 1090px) {
           margin-top: 0;
           margin-right: -2px;
           width: 300px;
           margin-bottom: 14px;
+        }
+        .reseauxSolene {
+          display: flex;
+          margin-top: -12px;
+          margin-left: 62px;
+          flex-direction: row;
+          @media (max-width: 1090px) {
+            margin-left: 197px;
+          }
+          .linkedinSolene {
+            margin-left: 5px;
+          }
+          .twitterSolene {
+            margin-left: 5px;
+          }
+          .gitSolene {
+            margin-left: 5px;
+          }
         }
       }
     }
@@ -224,7 +351,7 @@ export default {
       height: 100%;
       display: flex;
       flex-direction: column;
-      @media (max-width: 1110px) {
+      @media (max-width: 1090px) {
         width: 100%;
         height: auto;
         align-items: center;
@@ -236,7 +363,7 @@ export default {
         margin-top: 55px;
         margin-left: 7px;
         margin-bottom: 14px;
-        @media (max-width: 1110px) {
+        @media (max-width: 1090px) {
           margin-right: 4px;
           margin-top: 0;
           margin-bottom: 14px;
@@ -257,11 +384,26 @@ export default {
         line-height: 27px;
         text-align: left;
         padding: 0px 15px;
-        @media (max-width: 1110px) {
+        @media (max-width: 1090px) {
           margin-top: 0;
           margin-left: 3px;
           width: 300px;
           margin-bottom: 14px;
+        }
+        .reseauxAgathe {
+          display: flex;
+          margin-top: -12px;
+          margin-left: 86px;
+          flex-direction: row;
+          @media (max-width: 1090px) {
+            margin-left: 221px;
+          }
+          .linkedinAgathe {
+            margin-left: 5px;
+          }
+          .instaAgathe {
+            margin-left: 5px;
+          }
         }
       }
       .nico {
@@ -269,7 +411,7 @@ export default {
         height: 368px;
         margin-left: 7px;
         margin-top: 43px;
-        @media (max-width: 1110px) {
+        @media (max-width: 1090px) {
           margin-right: 3px;
           margin-top: 0;
           margin-bottom: 14px;
@@ -290,7 +432,7 @@ export default {
         line-height: 27px;
         text-align: left;
         padding: 0px 15px;
-        @media (max-width: 1110px) {
+        @media (max-width: 1090px) {
           margin-top: 0;
           margin-left: 4px;
           width: 300px;
@@ -299,6 +441,21 @@ export default {
         @media (max-width: 510px) {
           margin-bottom: 90px;
         }
+        .reseauxNico {
+          display: flex;
+          margin-top: -12px;
+          margin-left: 91px;
+          flex-direction: row;
+          @media (max-width: 1090px) {
+            margin-left: 222px;
+          }
+          .linkedinNico {
+            margin-left: 5px;
+          }
+          .instaNico {
+            margin-left: 5px;
+          }
+        }
       }
     }
   }
@@ -306,7 +463,7 @@ export default {
     position: absolute;
     bottom: -47%;
     right: 6%;
-    @media (max-width: 890px) {
+    @media (max-width: 1090px) {
       bottom: -215%;
       right: 48%;
     }
@@ -326,7 +483,7 @@ export default {
       bottom: -420px;
       width: 100%;
     }
-    @media (max-width: 890px) {
+    @media (max-width: 1090px) {
       position: static;
       margin-top: 80px;
     }

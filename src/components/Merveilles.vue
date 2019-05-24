@@ -135,7 +135,7 @@ export default {
     width: 86%;
     display: flex;
     justify-content: space-between;
-    @media (max-width: 890px) {
+    @media (max-width: 1090px) {
       justify-content: center;
       align-items: center;
       flex-direction: column;
@@ -146,7 +146,7 @@ export default {
       display: flex;
       flex-direction: column;
       align-items: flex-end;
-      @media (max-width: 890px) {
+      @media (max-width: 1090px) {
         width: 100%;
         height: auto;
         align-items: center;
@@ -156,7 +156,7 @@ export default {
         height: 300px;
         margin-right: 105px;
         margin-bottom: 14px;
-        @media (max-width: 890px) {
+        @media (max-width: 1090px) {
           margin-right: 0;
         }
       }
@@ -165,7 +165,7 @@ export default {
         height: 175px;
         margin-right: 7px;
         margin-bottom: 14px;
-        @media (max-width: 890px) {
+        @media (max-width: 1090px) {
           margin-right: 0;
         }
       }
@@ -174,7 +174,7 @@ export default {
         height: 238px;
         margin-right: 200px;
         margin-bottom: 14px;
-        @media (max-width: 890px) {
+        @media (max-width: 1090px) {
           width: 324px;
           height: 390px;
           margin-right: 0;
@@ -186,7 +186,7 @@ export default {
         margin-right: 7px;
         margin-top: -252px;
         margin-bottom: 14px;
-        @media (max-width: 890px) {
+        @media (max-width: 1090px) {
           width: 324px;
           height: 640px;
           margin-right: 0;
@@ -199,7 +199,7 @@ export default {
       height: 100%;
       display: flex;
       flex-direction: column;
-      @media (max-width: 890px) {
+      @media (max-width: 1090px) {
         width: 100%;
         height: auto;
         align-items: center;
@@ -210,7 +210,7 @@ export default {
         height: 209px;
         margin-left: 7px;
         margin-bottom: 14px;
-        @media (max-width: 890px) {
+        @media (max-width: 1090px) {
           width: 323px;
           height: 368px;
           margin-right: 0;
@@ -222,7 +222,7 @@ export default {
         height: 425px;
         margin-left: 7px;
         margin-bottom: 14px;
-        @media (max-width: 890px) {
+        @media (max-width: 1090px) {
           width: 322px;
           height: 404px;
           margin-bottom: 14px;
@@ -233,7 +233,7 @@ export default {
         height: 262px;
         margin-left: 7px;
         margin-bottom: 14px;
-        @media (max-width: 890px) {
+        @media (max-width: 1090px) {
           width: 322px;
           height: 316px;
           margin-right: 0;
@@ -249,7 +249,7 @@ export default {
         line-height: 21px;
         text-align: left;
         margin-bottom: 14px;
-        @media (max-width: 890px) {
+        @media (max-width: 1090px) {
           margin-top: 0;
           margin-right: 0;
           margin-left: 0;
@@ -282,7 +282,7 @@ export default {
   }
   .titleVisible {
     visibility: visible;
-    @media (max-width: 890px) {
+    @media (max-width: 1090px) {
       position: fixed;
       top: 283px;
       font-size: 170px;

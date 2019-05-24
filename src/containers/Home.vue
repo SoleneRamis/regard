@@ -88,7 +88,7 @@ export default {
       position: absolute;
       bottom: 1%;
       right: 6%;
-      @media (max-width: 890px) {
+      @media (max-width: 1090px) {
         bottom: 70px;
         right: 48%;
       }
@@ -103,7 +103,7 @@ export default {
       text-align: center;
       margin-top: 110px;
       padding-bottom: 14px;
-      @media (max-width: 890px) {
+      @media (max-width: 1090px) {
         margin-top: 80px;
       }
       @media (max-width: 510px) {
