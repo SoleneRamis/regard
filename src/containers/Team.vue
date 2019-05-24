@@ -147,7 +147,7 @@ export default {
     Top () {
       document.body.scrollTop = 0
       document.documentElement.scrollTop = 0
-    }
+    },
     TopScroll () {
       document.body.scrollTop = 0
       document.documentElement.scrollTop = 0
