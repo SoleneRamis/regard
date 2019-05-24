@@ -122,6 +122,7 @@ export default {
       display: flex;
       flex-direction: column;
       align-items: flex-end;
+      z-index: 1;
       @media (max-width: 1090px) {
         width: 100%;
         height: auto;
@@ -248,6 +249,7 @@ export default {
       height: 100%;
       display: flex;
       flex-direction: column;
+      z-index: 1;
       @media (max-width: 1090px) {
         width: 100%;
         height: auto;
@@ -439,7 +441,7 @@ export default {
     }
     @media (max-width: 375px) {
       bottom: -1278%;
-      z-index: -1;
+      z-index: -2;
     }
   }
   .toparrowResponsive {
@@ -447,7 +449,7 @@ export default {
       display: none;
       @media (max-width: 375px) {
         display: initial;
-        bottom: -1102%;
+        bottom: -1280%;
         right: 45%;
       }
   }
