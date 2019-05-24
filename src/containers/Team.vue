@@ -491,7 +491,7 @@ export default {
     }
     @media (max-width: 375px) {
       bottom: -312%;
-      z-index: -2;
+      z-index: 1;
     }
   }
   .toparrowResponsive {
