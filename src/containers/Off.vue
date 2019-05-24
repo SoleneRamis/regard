@@ -41,11 +41,6 @@
           <path d="M9.48837 36V19.4722H2L13.7674 2L25 19.4722H17.5116V36H9.48837Z" stroke="#ffffff" stroke-width="2"/>
         </svg>
       </div>
-      <div @click="Top">
-        <svg width="27" height="37" viewBox="0 0 27 37" fill="none" class="toparrowResponsive" xmlns="http://www.w3.org/2000/svg">
-          <path d="M9.48837 36V19.4722H2L13.7674 2L25 19.4722H17.5116V36H9.48837Z" stroke="#ffffff" stroke-width="2"/>
-        </svg>
-      </div>
       <p class="made">MADE IN GOBELINS - 2018. 2019</p>
     </div>
   </div>
@@ -443,15 +438,10 @@ export default {
       bottom: -1278%;
       z-index: -2;
     }
-  }
-  .toparrowResponsive {
-      position: absolute;
-      display: none;
-      @media (max-width: 268px) {
-        display: initial;
-        bottom: -1280%;
-        right: 45%;
-      }
+    @media (max-width: 268px) {
+      bottom: -1280%;
+      right: 45%;
+    }
   }
   .made {
     color: white;
