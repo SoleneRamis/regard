@@ -487,7 +487,7 @@ export default {
     padding-bottom: 14px;
     @media (max-width: 2560px) {
       position: absolute;
-      bottom: -70px;
+      bottom: 5%;
       width: 100%;
     }
     @media (max-width: 1440px) {
