@@ -420,7 +420,7 @@ export default {
       right: 20%;
     }
     @media (max-width: 1440px) {
-      bottom: -310%;
+      bottom: -410%;
       margin-top: 13px;
       right: 14%;
     }
@@ -447,7 +447,7 @@ export default {
       width: 100%;
     }
     @media (max-width: 1440px) {
-      bottom: -321%;
+      bottom: -425%;
       right: 0;
       width: 100%;
     }
