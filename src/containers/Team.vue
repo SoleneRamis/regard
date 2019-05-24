@@ -481,6 +481,9 @@ export default {
     @media (max-width: 375px) {
       bottom: -312%;
     }
+    @media (max-height: 812px) {
+      bottom: -259%;
+    }
   }
   .made {
     color: $purple;
