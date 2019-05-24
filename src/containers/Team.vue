@@ -464,8 +464,7 @@ export default {
     bottom: -47%;
     right: 6%;
     @media (max-width: 2560px) {
-      bottom: 0%;
-      right: 20%;
+      display: none;
     }
     @media (max-width: 1440px) {
       bottom: -16%;
