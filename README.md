@@ -10,6 +10,17 @@ Project Gobelins 2018. 2019
 - Mathias De Olivera
 - Solène Ramis
 
+``` bash
+# Problèmatique
+Comment découvrir les 7 merveilles sous un nouvel angle?
+
+# Concept
+Jeu qui permet d’explorer les 7 merveilles du monde à travers différents regards. Sélectionner le bon personnage afin de résoudre les énigmes et ainsi accéder aux merveilles suivantes.
+
+#Technologies
+• Leap motion
+• Casque VR
+```
 
 ![7merveilles](static/img/merveilles.png)
 
