@@ -476,7 +476,7 @@ export default {
       right: 48%;
     }
     @media (max-width: 500px) {
-      bottom: -210%;
+      bottom: -242%;
     }
   }
   .made {
