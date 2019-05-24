@@ -408,7 +408,7 @@ export default {
       }
       .nico {
         width: 299px;
-        height: 368px;
+        height: 395px;
         margin-left: 7px;
         margin-top: 43px;
         @media (max-width: 1090px) {
@@ -463,6 +463,14 @@ export default {
     position: absolute;
     bottom: -47%;
     right: 6%;
+    @media (max-width: 2560px) {
+      bottom: 0%;
+      right: 20%;
+    }
+    @media (max-width: 1440px) {
+      bottom: -16%;
+      right: 14%;
+    }
     @media (max-width: 1090px) {
       bottom: -215%;
       right: 48%;
@@ -478,9 +486,14 @@ export default {
     text-align: center;
     margin-top: 110px;
     padding-bottom: 14px;
+    @media (max-width: 2560px) {
+      position: absolute;
+      bottom: -70px;
+      width: 100%;
+    }
     @media (max-width: 1440px) {
       position: absolute;
-      bottom: -420px;
+      bottom: -252px;
       width: 100%;
     }
     @media (max-width: 1090px) {

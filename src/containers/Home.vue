@@ -88,6 +88,14 @@ export default {
       position: absolute;
       bottom: 1%;
       right: 6%;
+      @media (max-width: 2560px) {
+        bottom: 2%;
+        right: 20%;
+      }
+      @media (max-width: 1440px) {
+        bottom: 2%;
+        right: 14%;
+      }
       @media (max-width: 1090px) {
         bottom: 70px;
         right: 48%;

@@ -414,10 +414,19 @@ export default {
       position: absolute;
       bottom: -410%;
       right: 14%;
-    @media (max-width: 1090px) {
-      bottom: auto;
+    @media (max-width: 2560px) {
+      bottom: -244%;
       margin-top: 13px;
-      right: 48%;
+      right: 20%;
+    }
+    @media (max-width: 1440px) {
+      bottom: -310%;
+      margin-top: 13px;
+      right: 14%;
+    }
+    @media (max-width: 1090px) {
+      bottom: -244%;
+      margin-top: 13px;
     }
   }
   .made {
@@ -432,13 +441,13 @@ export default {
     padding-bottom: 14px;
     position: absolute;
     bottom: 0;
-    @media (max-width: 1440px) {
-      bottom: -323%;
+    @media (max-width: 2560px) {
+      bottom: -252%;
       right: 0;
       width: 100%;
     }
-    @media (min-width: 1440px) {
-      bottom: -426%;
+    @media (max-width: 1440px) {
+      bottom: -321%;
       right: 0;
       width: 100%;
     }
