@@ -415,7 +415,7 @@ export default {
       bottom: -410%;
       right: 14%;
     @media (max-width: 2560px) {
-      bottom: -244%;
+      bottom: -192%;
       margin-top: 13px;
       right: 20%;
     }
@@ -442,7 +442,7 @@ export default {
     position: absolute;
     bottom: 0;
     @media (max-width: 2560px) {
-      bottom: -252%;
+      bottom: -202%;
       right: 0;
       width: 100%;
     }
