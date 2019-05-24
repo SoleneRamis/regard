@@ -13,26 +13,26 @@
     <div class="container">
       <div class="left">
         <img class="off1l" src="../../static/img/off/off1l.png"/>
-        <video class="off2l" preload controls Autoplay=autoplay muted loop src="../../static/img/off/off2l.mov"/>
+        <video class="off2l" preload controls Autoplay=autoplay muted playsinline loop src="../../static/img/off/off2l.mov"/>
         <img class="off3l" src="../../static/img/off/off3l.png"/>
         <img class="off4l" src="../../static/img/off/off4l.png"/>
         <img class="off5l" src="../../static/img/off/off5l.png"/>
-        <video class="off6l" preload controls Autoplay=autoplay muted loop src="../../static/img/off/off6l.mov"/>
+        <video class="off6l" preload controls Autoplay=autoplay muted playsinline loop src="../../static/img/off/off6l.mov"/>
         <img class="off7l" src="../../static/img/off/off7l.png"/>
         <img class="off8l" src="../../static/img/off/off8l.png"/>
         <img class="off9l" src="../../static/img/off/off9l.png"/>
       </div>
       <div class="right">
         <img class="off1r" src="../../static/img/off/off1r.png"/>
-        <video class="off2r" preload controls Autoplay=autoplay muted loop src="../../static/img/off/off2r.mov"/>
+        <video class="off2r" preload controls Autoplay=autoplay muted playsinline loop src="../../static/img/off/off2r.mov"/>
         <img class="off3r" src="../../static/img/off/off3r.png"/>
         <img class="off4r" src="../../static/img/off/off4r.png"/>
         <img class="off5r" src="../../static/img/off/off5r.png"/>
-        <video class="off6r" preload controls Autoplay=autoplay muted loop src="../../static/img/off/off6r.mov"/>
+        <video class="off6r" preload controls Autoplay=autoplay muted playsinline loop src="../../static/img/off/off6r.mov"/>
         <img class="off7r" src="../../static/img/off/off7r.png"/>
         <img class="off8r" src="../../static/img/off/off8r.png"/>
         <img class="off9r" src="../../static/img/off/off9r.png"/>
-        <video class="off10r" preload controls Autoplay=autoplay muted loop src="../../static/img/off/off10r.mov"/>
+        <video class="off10r" preload controls Autoplay=autoplay muted playsinline loop src="../../static/img/off/off10r.mov"/>
         <img class="off11r" src="../../static/img/off/off11r.png"/>
         <video class="off12r" preload controls Autoplay=autoplay loop src="../../static/img/off/off12r.mov"/>
       </div>
@@ -429,7 +429,10 @@ export default {
       right: 45%;
       margin-top: 13px;
     }
-    @media (max-width: 500px) {
+    @media (max-width: 414px) {
+      bottom: -902%;
+    }
+    @media (max-width: 375px) {
       bottom: -1006%;
     }
   }

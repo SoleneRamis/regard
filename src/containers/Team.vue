@@ -475,7 +475,10 @@ export default {
       bottom: -215%;
       right: 48%;
     }
-    @media (max-width: 500px) {
+    @media (max-width: 414px) {
+      bottom: -210%;
+    }
+    @media (max-width: 375px) {
       bottom: -242%;
     }
   }
