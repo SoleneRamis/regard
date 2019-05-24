@@ -433,7 +433,7 @@ export default {
       bottom: -1166%;
     }
     @media (max-width: 375px) {
-      bottom: -1006%;
+      bottom: -1278%;
     }
   }
   .made {
