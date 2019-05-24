@@ -493,7 +493,7 @@ export default {
   .toparrowResponsive {
     position: absolute;
     display: none;
-    @media (max-width: 375px) {
+    @media (max-width: 268px) {
       display: initial;
       bottom: -259%;
       right: 48%;
