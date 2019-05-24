@@ -430,7 +430,7 @@ export default {
       margin-top: 13px;
     }
     @media (max-width: 414px) {
-      bottom: -902%;
+      bottom: -1166%;
     }
     @media (max-width: 375px) {
       bottom: -1006%;
