@@ -435,6 +435,9 @@ export default {
     @media (max-width: 375px) {
       bottom: -1278%;
     }
+    @media (max-height: 812px) {
+      bottom: -1102%;
+    }
   }
   .made {
     color: white;
