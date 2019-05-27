@@ -7,6 +7,8 @@
 </template>
 
 <script>
+import '../static/img/favicon.png'
+
 export default {
   name: 'App'
 }

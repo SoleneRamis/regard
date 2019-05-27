@@ -122,18 +122,20 @@
           <path d="M9.48837 36V19.4722H2L13.7674 2L25 19.4722H17.5116V36H9.48837Z" stroke="#B52DF5" stroke-width="2"/>
         </svg>
       </div>
-      <p class="made">MADE IN GOBELINS FOR MK2 - 2018. 2019</p>
+      <made-purple></made-purple>
     </div>
   </div>
 </template>
 
 <script>
 import NavBar from '../components/NavBar'
+import MadePurple from '../components/MadePurple'
 
 export default {
   name: 'Team',
   components: {
-    NavBar
+    NavBar,
+    MadePurple
   },
   data () {
     return {}
@@ -459,71 +461,41 @@ export default {
       }
     }
   }
-  // .toparrow {
-  //   position: absolute;
-  //   bottom: -47%;
-  //   right: 6%;
-  //   z-index: 1;
-  //   @media (max-width: 2560px) {
-  //     display: none;
-  //   }
-  //   @media (max-width: 1440px) {
-  //     display: initial;
-  //     bottom: -45%;
-  //     right: 14%;
-  //   }
-  //   @media (max-width: 1090px) {
-  //     bottom: -215%;
-  //     right: 48%;
-  //   }
-  //   @media (max-width: 414px) {
-  //     bottom: -278%;
-  //   }
-  //   @media (max-width: 375px) {
-  //     bottom: -312%;
-  //   }
-  // }
     .toparrow {
-      width: 100%;
-      height: 100%;
-      display: contents;
+      margin-top: -10px;
       .arrow {
-        @media (min-width: 1440px) {
+        @media (max-width: 2560px) {
           position: absolute;
-          right: 6%;
-          bottom: -310px;
+          right: 14%;
+          bottom: 10px;
         }
-        @media (max-width: 414px) {
-          height: 100%;
+        @media (max-width: 1440px) {
+          position: absolute;
+          right: 12%;
+          bottom: -200px;
+        }
+        @media (max-width: 1090px) {
+          position: static;
+          margin-top: 40px;
+        }
+        @media (max-width: 500px) {
+          margin-top: -30px;
         }
     }
   }
-  .made {
-    color: $purple;
-    font-family: "Prophet Regular";
-    font-size: 15px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 21px;
-    text-align: center;
-    margin-top: 110px;
-    padding-bottom: 14px;
+  .made-purple {
+    position: absolute;
+    bottom: 0;
     @media (max-width: 2560px) {
-      position: absolute;
-      bottom: 5%;
-      width: 100%;
+      bottom: -140px;
     }
     @media (max-width: 1440px) {
-      position: absolute;
-      bottom: -445px;
-      width: 100%;
+      bottom: -320px;
     }
     @media (max-width: 1090px) {
+      flex-direction: column;
       position: static;
-      margin-top: 80px;
-    }
-    @media (max-width: 510px) {
-      margin-top: 20px;
+      margin-top: 50px;
     }
   }
 }

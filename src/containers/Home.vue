@@ -23,7 +23,7 @@
         </svg>
       </div>
     </div>
-    <p class="made">MADE IN GOBELINS FOR MK2 - 2018. 2019</p>
+    <made-purple></made-purple>
   </div>
 </template>
 
@@ -33,6 +33,7 @@ import Beaute from '../components/Beaute'
 import Merveilles from '../components/Merveilles'
 import Pensee from '../components/Pensee'
 import Squad from '../components/Squad'
+import MadePurple from '../components/MadePurple'
 
 export default {
   name: 'Home',
@@ -41,7 +42,8 @@ export default {
     Beaute,
     Merveilles,
     Pensee,
-    Squad
+    Squad,
+    MadePurple
   },
   data () {
     return {}
@@ -92,33 +94,27 @@ export default {
       bottom: 1%;
       right: 6%;
       @media (max-width: 2560px) {
-        bottom: 2%;
-        right: 20%;
-      }
-      @media (max-width: 1440px) {
-        bottom: 2%;
+        bottom: 4%;
         right: 14%;
       }
+      @media (max-width: 1440px) {
+        bottom: 3.5%;
+        right: 11%;
+      }
       @media (max-width: 1090px) {
-        bottom: 70px;
+        bottom: 310px;
         right: 48%;
       }
-    }
-    .made {
-      color: $purple;
-      font-family: "Prophet Regular";
-      font-size: 15px;
-      font-style: normal;
-      font-weight: normal;
-      line-height: 21px;
-      text-align: center;
-      margin-top: 110px;
-      padding-bottom: 14px;
-      @media (max-width: 1090px) {
-        margin-top: 80px;
+      @media (max-width: 900px) {
+        right: 46.5%;
       }
-      @media (max-width: 510px) {
-        margin-top: 80px;
+    }
+    .made-purple {
+      margin-top: 114px;
+      @media (max-width: 1090px) {
+        flex-direction: column;
+        position: static;
+        margin-top: 100px;
       }
     }
   }

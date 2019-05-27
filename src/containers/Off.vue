@@ -41,18 +41,20 @@
           <path d="M9.48837 36V19.4722H2L13.7674 2L25 19.4722H17.5116V36H9.48837Z" stroke="#ffffff" stroke-width="2"/>
         </svg>
       </div>
-      <p class="made">MADE IN GOBELINS FOR MK2 - 2018. 2019</p>
+      <made-white></made-white>
     </div>
   </div>
 </template>
 
 <script>
 import NavBar from '../components/NavBar'
+import MadeWhite from '../components/MadeWhite'
 
 export default {
   name: 'Off',
   components: {
-    NavBar
+    NavBar,
+    MadeWhite
   },
   data () {
     return {}
@@ -412,96 +414,46 @@ export default {
       }
     }
   }
-  // .toparrow {
-  //     position: absolute;
-  //     bottom: -410%;
-  //     right: 14%;
-  //   @media (max-width: 2560px) {
-  //     bottom: -192%;
-  //     margin-top: 13px;
-  //     right: 20%;
-  //   }
-  //   @media (max-width: 1440px) {
-  //     bottom: -410%;
-  //     margin-top: 13px;
-  //     right: 14%;
-  //   }
-  //   @media (max-width: 1090px) {
-  //     bottom: -244%;
-  //     right: 45%;
-  //     margin-top: 13px;
-  //   }
-  //   @media (max-width: 414px) {
-  //     bottom: -1166%;
-  //   }
-  //   @media (max-width: 375px) {
-  //     bottom: -1278%;
-  //     z-index: -2;
-  //   }
-  //   @media (max-width: 268px) {
-  //     bottom: -1280%;
-  //     right: 45%;
-  //   }
-  // }
-  // .toparrow {
-      margon-right: 6%;
-      // @media (max-width: 2560px) {
-      //   bottom: 2%;
-      //   right: 20%;
-      // }
-      // @media (max-width: 1440px) {
-      //   bottom: 2%;
-      //   right: 14%;
-      // }
-      // @media (max-width: 1090px) {
-      //   bottom: 70px;
-      //   right: 48%;
-      // }
-    // }
-    .toparrow {
-      width: 100%;
-      height: 100%;
-      display: contents;
-      .arrow {
-        @media (min-width: 1440px) {
-          position: absolute;
-          right: 6%;
-          bottom: -2950px;
-        }
-        @media (max-width: 414px) {
-          height: 100%;
-        }
+  .toparrow {
+    margin-top: 30px;
+    .arrow {
+      @media (max-width: 2560px) {
+        position: absolute;
+        right: 14.5%;
+        bottom: -239%;
+      }
+      @media (max-width: 1440px) {
+        position: absolute;
+        right: 12%;
+        bottom: -310%;
+      }
+      @media (max-width: 1090px) {
+        position: static;
+        margin-top: 40px;
+      }
+      @media (max-width: 500px) {
+        margin-top: -30px;
+      }
     }
   }
-  .made {
-    color: white;
-    font-family: "Prophet Regular";
-    font-size: 15px;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 21px;
-    text-align: center;
-    margin-top: 110px;
-    padding-bottom: 14px;
+  .made-white {
+    margin-top: 174px;
     position: absolute;
     bottom: 0;
     @media (max-width: 2560px) {
-      bottom: -202%;
+      bottom: -251%;
       right: 0;
       width: 100%;
     }
     @media (max-width: 1440px) {
-      bottom: -425%;
+      bottom: -323%;
       right: 0;
       width: 100%;
     }
     @media (max-width: 1090px) {
+      flex-direction: column;
       position: static;
-      margin-top: 80px;
-    }
-    @media (max-width: 510px) {
-      margin-top: 42px;
-      margin-bottom: 14px;
+      margin-top: 50px;
     }
   }
 }
