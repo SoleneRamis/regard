@@ -465,11 +465,13 @@ export default {
       margin-top: -10px;
       .arrow {
         @media (max-width: 2560px) {
-          position: absolute;
-          right: 14%;
-          bottom: 160px;
+          // position: absolute;
+          // right: 14%;
+          // bottom: 160px;
+          display: none;
         }
         @media (max-width: 1440px) {
+          display: contents;
           position: absolute;
           right: 12%;
           bottom: -200px;
