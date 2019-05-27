@@ -418,11 +418,10 @@ export default {
     margin-top: 30px;
     .arrow {
       @media (max-width: 2560px) {
-        position: absolute;
-        right: 14.5%;
-        bottom: -190%;
+        display: none;
       }
       @media (max-width: 1440px) {
+        display: contents;
         position: absolute;
         right: 12%;
         bottom: -310%;
