@@ -116,7 +116,7 @@ export default {
     .made-purple {
       margin-top: 114px;
       @media (max-width: 2560px){
-        margin-top: -150px;
+        margin-top: 124px;
       }
       @media (max-height: 724px) {
         margin-top: 140px;
