@@ -101,6 +101,10 @@ export default {
         bottom: 3.5%;
         right: 11%;
       }
+      @media (max-height: 724px) {
+          bottom: 5%;
+          right: 11.5%;
+      }
       @media (max-width: 1090px) {
         bottom: 310px;
         right: 48%;
@@ -111,6 +115,12 @@ export default {
     }
     .made-purple {
       margin-top: 114px;
+      @media (max-width: 2560px){
+        margin-top: -150px;
+      }
+      @media (max-height: 724px) {
+        margin-top: 140px;
+      }
       @media (max-width: 1090px) {
         flex-direction: column;
         position: static;

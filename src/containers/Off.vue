@@ -427,6 +427,9 @@ export default {
         right: 12%;
         bottom: -310%;
       }
+      @media (max-height: 724px) {
+        bottom: -401%;
+      }
       @media (max-width: 1090px) {
         position: static;
         margin-top: 40px;
@@ -447,9 +450,10 @@ export default {
     }
     @media (max-width: 1440px) {
       bottom: -323%;
-      right: 0;
-      width: 100%;
     }
+    @media (max-height: 724px) {
+        bottom: -426%;
+      }
     @media (max-width: 1090px) {
       flex-direction: column;
       position: static;
