@@ -23,7 +23,7 @@
         </svg>
       </div>
     </div>
-    <p class="made">MADE IN GOBELINS - 2018. 2019</p>
+    <p class="made">MADE IN GOBELINS FOR MK2 - 2018. 2019</p>
   </div>
 </template>
 

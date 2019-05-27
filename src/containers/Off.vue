@@ -41,7 +41,7 @@
           <path d="M9.48837 36V19.4722H2L13.7674 2L25 19.4722H17.5116V36H9.48837Z" stroke="#ffffff" stroke-width="2"/>
         </svg>
       </div>
-      <p class="made">MADE IN GOBELINS - 2018. 2019</p>
+      <p class="made">MADE IN GOBELINS FOR MK2 - 2018. 2019</p>
     </div>
   </div>
 </template>
