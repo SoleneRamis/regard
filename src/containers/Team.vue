@@ -468,10 +468,10 @@ export default {
           display: none;
         }
         @media (max-width: 2048px) {
-          display: contents;
+          display: initial;
           position: absolute;
           right: 12%;
-          bottom: -200px;
+          bottom: -70px;
         }
         @media (max-width: 1440px) {
           right: 12%;

@@ -151,11 +151,13 @@ export default {
 }
 @media (max-width: 2048px) {
   .navbar {
-    .slashLeft {
-      top: 8px;
-    }
-    .slashRight {
-      top: 8px;
+    .logoAnim {
+      .slashLeft {
+        top: 8px;
+      }
+      .slashRight {
+        top: 8px;
+      }
     }
   }
 }
