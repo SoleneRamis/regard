@@ -119,6 +119,7 @@ export default {
       justify-content: flex-start;
       align-items: center;
       flex-direction: column;
+      margin-bottom: 0;
     }
     .left {
       width: 50%;
