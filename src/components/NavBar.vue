@@ -37,8 +37,8 @@ export default {
   position: fixed;
   width: 100%;
   height: 100px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   margin-bottom: 14px;
   display: flex;
   flex-direction: row;
@@ -85,7 +85,7 @@ export default {
       font-size: 37px;
       margin-left: -14px;
       position: absolute;
-      top: 0px;
+      top: 0;
     }
     .slashLeft {
       transform: translate(0vw, 0vh);

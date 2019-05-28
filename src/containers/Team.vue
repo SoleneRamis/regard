@@ -168,7 +168,7 @@ export default {
   .logo {
     position: fixed;
     top: 292px;
-    left: 0px;
+    left: 0;
     @media (max-width: 2580px) {
         left: 12vw;
     }
@@ -211,7 +211,7 @@ export default {
         @media (max-width: 1090px) {
           width: 295px;
           height: 326px;
-          margin-right: 0px;
+          margin-right: 0;
         }
       }
       .descMathias {
@@ -227,7 +227,7 @@ export default {
         font-size: 19px;
         line-height: 27px;
         text-align: left;
-        padding: 0px 15px;
+        padding: 0 15px;
         @media (max-width: 1090px) {
           margin-top: 0;
           margin-right: 8px;
@@ -273,7 +273,7 @@ export default {
         font-size: 19px;
         line-height: 27px;
         text-align: left;
-        padding: 0px 15px;
+        padding: 0 15px;
         @media (max-width: 1090px) {
           margin-top: 0;
           margin-right: 8px;
@@ -321,7 +321,7 @@ export default {
         font-size: 19px;
         line-height: 27px;
         text-align: left;
-        padding: 0px 15px;
+        padding: 0 15px;
         @media (max-width: 1090px) {
           margin-top: 0;
           margin-right: -2px;
@@ -385,7 +385,7 @@ export default {
         font-size: 19px;
         line-height: 27px;
         text-align: left;
-        padding: 0px 15px;
+        padding: 0 15px;
         @media (max-width: 1090px) {
           margin-top: 0;
           margin-left: 3px;
@@ -433,7 +433,7 @@ export default {
         font-size: 19px;
         line-height: 27px;
         text-align: left;
-        padding: 0px 15px;
+        padding: 0 15px;
         @media (max-width: 1090px) {
           margin-top: 0;
           margin-left: 4px;
@@ -477,7 +477,7 @@ export default {
           right: 12%;
           bottom: -200px;
         }
-        @media (max-height: 724px) {
+        @media (min-height: 724px) {
           bottom: -340px;
         }
         @media (max-width: 1090px) {
@@ -501,7 +501,7 @@ export default {
     @media (max-width: 1440px) {
       bottom: -320px;
     }
-    @media (max-height: 724px) {
+    @media (min-height: 724px) {
       bottom: -515px;
     }
     @media (max-width: 1090px) {

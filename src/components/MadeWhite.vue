@@ -82,6 +82,9 @@ export default {
     margin-left: 80px;
     padding-top: 27px;
     height: 80px;
+    @media (max-width: 1090px) {
+      margin-left: 0;
+    }
   }
 }
 </style>

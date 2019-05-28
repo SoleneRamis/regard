@@ -190,7 +190,7 @@ export default {
           width: 324px;
           height: 640px;
           margin-right: 0;
-          margin-top: 0px;
+          margin-top: 0;
         }
       }
     }

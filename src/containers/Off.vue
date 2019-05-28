@@ -21,6 +21,9 @@
         <img class="off7l" src="../../static/img/off/off7l.png"/>
         <img class="off8l" src="../../static/img/off/off8l.png"/>
         <img class="off9l" src="../../static/img/off/off9l.png"/>
+        <video class="off10l" preload controls Autoplay=autoplay muted playsinline loop src="../../static/img/off/off10l.mov"/>
+        <video class="off11l" preload controls Autoplay=autoplay muted playsinline loop src="../../static/img/off/off11l.mov"/>
+
       </div>
       <div class="right">
         <img class="off1r" src="../../static/img/off/off1r.png"/>
@@ -34,7 +37,10 @@
         <img class="off9r" src="../../static/img/off/off9r.png"/>
         <video class="off10r" preload controls Autoplay=autoplay muted playsinline loop src="../../static/img/off/off10r.mov"/>
         <img class="off11r" src="../../static/img/off/off11r.png"/>
-        <video class="off12r" preload controls Autoplay=autoplay loop src="../../static/img/off/off12r.mov"/>
+        <img class="off12r" src="../../static/img/off/off12r.png"/>
+        <video class="off13r" preload controls Autoplay=autoplay muted playsinline loop src="../../static/img/off/off13r.mov"/>
+        <video class="off14r" preload controls Autoplay=autoplay muted playsinline loop src="../../static/img/off/off14r.mov"/>
+        <video class="off15r" preload controls Autoplay=autoplay loop src="../../static/img/off/off15r.mov"/>
       </div>
       <div class="toparrow" @click="Top">
         <svg class="arrow" width="27" height="37" viewBox="0 0 27 37" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -90,7 +96,7 @@ export default {
   .logo {
     position: fixed;
     top: 292px;
-    left: 0px;
+    left: 0;
     @media (max-width: 2580px) {
         left: 12vw;
     }
@@ -108,6 +114,7 @@ export default {
     display: flex;
     justify-content: space-between;
     margin-left: 22px;
+    margin-bottom: 14%;
     @media (max-width: 1090px) {
       justify-content: flex-start;
       align-items: center;
@@ -135,7 +142,7 @@ export default {
           margin-top: 54px;
           width: 315px;
           height: 106px;
-          margin-right: 0px;
+          margin-right: 0;
         }
       }
       .off2l {
@@ -223,8 +230,9 @@ export default {
         @media (max-width: 1090px) {
           margin-right: 0;
           width: 296px;
-          height: 418px;
+          height: 470px;
           margin-top: 0;
+          margin-bottom: 14px;
         }
       }
       .off9l {
@@ -232,12 +240,42 @@ export default {
         height: 340px;
         margin-right: 7px;
         margin-top: -354px;
-        margin-bottom: 14px;
+        margin-bottom: 64px;
         @media (max-width: 1090px) {
           margin-right: 0;
           width: 295px;
-          height: 438px;
+          height: 424px;
           margin-top: 0;
+          margin-bottom: 14px;
+        }
+      }
+      .off10l {
+        width: 359px;
+        height: 640px;
+        margin-right: 68px;
+        margin-bottom: 44px;
+        @media (max-width: 1090px) {
+          margin-right: 0;
+          width: 294px;
+          height: 522px;
+          margin-top: 0;
+          margin-bottom: 14px;
+        }
+      }
+      .off11l {
+        width: 392px;
+        height: 700px;
+        margin-right: 7px;
+        margin-bottom: 14px;
+        object-fit: cover;
+        @media (max-width: 1090px) {
+          margin-right: 0;
+          width: 294px;
+          height: 523px;
+          margin-bottom: 40px;
+          margin-top: 0;
+          object-fit: cover;
+          margin-bottom: 14px;
         }
       }
     }
@@ -388,20 +426,20 @@ export default {
         height: 312px;
         margin-left: 53px;
         margin-top: -156px;
-        margin-bottom: 14px;
+        margin-bottom: 64px;
         @media (max-width: 1090px) {
           margin-right: 53px;
           width: 296px;
-          height: 437px;
+          height: 487px;
           margin-top: 0;
+          margin-bottom: 14px;
         }
       }
       .off12r {
-        width: 272px;
-        height: 400px;
+        width: 352px;
+        height: 560px;
         margin-left: 7px;
-        margin-top: 110px;
-        margin-bottom: 215px;
+        margin-bottom: 34px;
         object-fit: cover;
         @media (max-width: 1090px) {
           margin-right: 7px;
@@ -409,7 +447,55 @@ export default {
           height: 527px;
           margin-bottom: 40px;
           margin-top: 0;
+          margin-bottom: 14px;
+        }
+      }
+      .off13r {
+        width: 517px;
+        height: 290px;
+        margin-left: 96px;
+        margin-bottom: 60px;
+        object-fit: cover;
+        @media (max-width: 1090px) {
+          margin-right: 37px;
+          width: 296px;
+          height: 527px;
+          margin-bottom: 40px;
+          margin-top: 0;
           object-fit: cover;
+          margin-bottom: 14px;
+        }
+      }
+      .off14r {
+        width: 272px;
+        height: 480px;
+        margin-left: 248px;
+        margin-bottom: 14px;
+        object-fit: cover;
+        @media (max-width: 1090px) {
+          margin-right: 37px;
+          width: 296px;
+          height: 527px;
+          margin-bottom: 40px;
+          margin-top: 0;
+          object-fit: cover;
+          margin-bottom: 14px;
+        }
+      }
+      .off15r {
+        width: 362px;
+        height: 650px;
+        margin-left: 39px;
+        margin-bottom: 14px;
+        object-fit: cover;
+        @media (max-width: 1090px) {
+          margin-right: 37px;
+          width: 296px;
+          height: 527px;
+          margin-bottom: 40px;
+          margin-top: 0;
+          object-fit: cover;
+          margin-bottom: 14px;
         }
       }
     }
@@ -428,10 +514,10 @@ export default {
       @media (max-width: 1440px) {
         position: absolute;
         right: 12%;
-        bottom: -310%;
+        bottom: -485%;
       }
-      @media (max-height: 724px) {
-        bottom: -401%;
+      @media (max-height: 728px) {
+        bottom: -620%;
       }
       @media (max-width: 1090px) {
         position: static;
@@ -455,10 +541,10 @@ export default {
       bottom: -266%;
     }
     @media (max-width: 1440px) {
-      bottom: -323%;
+      bottom: -500%;
     }
-    @media (max-height: 724px) {
-        bottom: -426%;
+    @media (max-height: 728px) {
+        bottom: -643%;
       }
     @media (max-width: 1090px) {
       flex-direction: column;

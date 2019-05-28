@@ -204,7 +204,7 @@ export default {
         font-size: 19px;
         line-height: 27px;
         text-align: left;
-        padding: 0px 15px;
+        padding: 0 15px;
         @media (max-width: 1090px) {
           margin-top: 0;
           margin-right: 4px;
@@ -253,9 +253,9 @@ export default {
         font-size: 19px;
         line-height: 27px;
         text-align: left;
-        padding: 0px 15px;
+        padding: 0 15px;
         @media (max-width: 1090px) {
-          margin-top: 0px;
+          margin-top: 0;
           margin-left: -3px;
           width: 325px;
           margin-bottom: 14px;

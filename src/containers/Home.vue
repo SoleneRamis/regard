@@ -75,7 +75,7 @@ export default {
     .logo {
       position: fixed;
       top: 292px;
-      left: 0px;
+      left: 0;
       @media (max-width: 2580px) {
         left: 12vw;
       }
@@ -101,12 +101,12 @@ export default {
         bottom: 3.5%;
         right: 11%;
       }
-      @media (max-height: 724px) {
+      @media (min-height: 724px) {
           bottom: 5%;
           right: 11.5%;
       }
       @media (max-width: 1090px) {
-        bottom: 310px;
+        bottom: 2.5%;
         right: 48%;
       }
       @media (max-width: 900px) {
@@ -118,7 +118,7 @@ export default {
       @media (max-width: 2560px){
         margin-top: 124px;
       }
-      @media (max-height: 724px) {
+      @media (min-height: 724px) {
         margin-top: 140px;
       }
       @media (max-width: 1090px) {
