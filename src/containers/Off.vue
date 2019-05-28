@@ -457,9 +457,9 @@ export default {
         margin-bottom: 60px;
         object-fit: cover;
         @media (max-width: 1090px) {
-          margin-right: 37px;
+          margin-right: 97px;
           width: 296px;
-          height: 527px;
+          height: 167px;
           margin-bottom: 40px;
           margin-top: 0;
           object-fit: cover;
@@ -473,7 +473,7 @@ export default {
         margin-bottom: 14px;
         object-fit: cover;
         @media (max-width: 1090px) {
-          margin-right: 37px;
+          margin-right: 247px;
           width: 296px;
           height: 527px;
           margin-bottom: 40px;
