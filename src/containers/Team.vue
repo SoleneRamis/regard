@@ -465,14 +465,9 @@ export default {
       margin-top: -10px;
       .arrow {
         @media (max-width: 2560px) {
-          // position: absolute;
-          // right: 14%;
-          // bottom: 160px;
           display: none;
         }
         @media (max-width: 1440px) {
-          display: contents;
-          position: absolute;
           right: 12%;
           bottom: -200px;
         }
@@ -493,6 +488,9 @@ export default {
     bottom: 0;
     @media (max-width: 2560px) {
       bottom: 0;
+    }
+    @media (max-width: 2048px) {
+      bottom: -200px;
     }
     @media (max-width: 1440px) {
       bottom: -320px;

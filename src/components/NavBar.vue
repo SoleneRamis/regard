@@ -149,6 +149,15 @@ export default {
     }
   }
 }
+@media (max-width: 2048px) {
+  .navbar {
+    .slashLeft {
+      top: 8px;
+    }
+    .slashRight {
+      top: 8px;
+    }
+}
 @media (max-width: 432px) {
   .navbar {
     .team {
