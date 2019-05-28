@@ -467,6 +467,12 @@ export default {
         @media (max-width: 2560px) {
           display: none;
         }
+        @media (max-width: 2048px) {
+          display: contents;
+          position: absolute;
+          right: 12%;
+          bottom: -200px;
+        }
         @media (max-width: 1440px) {
           right: 12%;
           bottom: -200px;
