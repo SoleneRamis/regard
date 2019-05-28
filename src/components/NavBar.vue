@@ -161,6 +161,18 @@ export default {
     }
   }
 }
+@media (max-width: 1440px) {
+  .navbar {
+    .logoAnim {
+      .slashLeft {
+        top: 0;
+      }
+      .slashRight {
+        top: 0;
+      }
+    }
+  }
+}
 @media (max-width: 432px) {
   .navbar {
     .team {
