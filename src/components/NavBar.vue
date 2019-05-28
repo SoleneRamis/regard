@@ -157,6 +157,7 @@ export default {
     .slashRight {
       top: 8px;
     }
+  }
 }
 @media (max-width: 432px) {
   .navbar {
