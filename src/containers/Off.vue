@@ -517,15 +517,27 @@ export default {
         right: 12%;
         bottom: -485%;
       }
-      @media (max-height: 728px) {
-        bottom: -620%;
-      }
       @media (max-width: 1090px) {
         position: static;
         margin-top: 40px;
       }
       @media (max-width: 500px) {
         margin-top: -30px;
+      }
+      @media (min-height: 728px) {
+        bottom: -620%;
+      }
+      @media (min-height: 686px) {
+        bottom: -670%;
+      }
+      @media (min-height: 718px) {
+        bottom: -640%;
+      }
+      @media (min-height: 821px) {
+        bottom: -484%;
+      }
+      @media (min-height: 1306px) {
+        bottom: -305%;
       }
     }
   }
@@ -544,13 +556,25 @@ export default {
     @media (max-width: 1440px) {
       bottom: -500%;
     }
-    @media (max-height: 728px) {
-        bottom: -643%;
-      }
     @media (max-width: 1090px) {
       flex-direction: column;
       position: static;
       margin-top: 50px;
+    }
+    @media (min-height: 728px) {
+      bottom: -643%;
+    }
+    @media (min-height: 686px) {
+      bottom: -690%;
+    }
+    @media (min-height: 718px) {
+        bottom: -655%;
+    }
+    @media (min-height: 821px) {
+      bottom: -502%;
+    }
+    @media (min-height: 1306px) {
+      bottom: -315%;
     }
   }
 }
