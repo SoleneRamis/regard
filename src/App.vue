@@ -21,7 +21,7 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-.fade-enter-active, .fade-leave-active {
+.fade-enter-active, .fade-leave-actsive {
   transition-property: opacity;
   transition-duration: .25s;
 }

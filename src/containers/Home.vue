@@ -7,6 +7,8 @@
         <merveilles></merveilles>
         <pensee></pensee>
         <squad></squad>
+        <img class="kit" src="../../static/img/kit.png"/>
+        <iframe class="video" width="700" height="415" src="https://www.youtube.com/embed/hK6MTY5ylSU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <svg class="logo" width="23" height="84" viewBox="0 0 23 84" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M17.387 46.85L17.387 49.8398L19.2635 49.8398L19.2635 46.85L17.387 46.85Z" fill="#B52DF5"/>
@@ -88,6 +90,15 @@ export default {
       @media (max-width: 1030px) {
         display: none;
       }
+    }
+    .kit {
+      width: 700px;
+      margin-left: 360px;
+      margin-top: 100px;
+    }
+    .video {
+      margin-left: 360px;
+      margin-top: 100px;
     }
     .toparrow {
       position: absolute;

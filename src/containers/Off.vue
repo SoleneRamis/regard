@@ -23,6 +23,8 @@
         <img class="off9l" src="../../static/img/off/off9l.png"/>
         <video class="off10l" preload controls Autoplay=autoplay muted playsinline loop src="../../static/img/off/off10l.mov"/>
         <video class="off11l" preload controls Autoplay=autoplay muted playsinline loop src="../../static/img/off/off11l.mov"/>
+        <img class="off12l" src="../../static/img/off/off12l.png"/>
+        <img class="off13l" src="../../static/img/off/off13l.jpg"/>
 
       </div>
       <div class="right">
@@ -276,6 +278,32 @@ export default {
           margin-bottom: 40px;
           margin-top: 0;
           object-fit: cover;
+          margin-bottom: 14px;
+        }
+      }
+      .off12l {
+        width: 240px;
+        height: 340px;
+        margin-right: 7px;
+        // margin-top: -354px;
+        margin-bottom: 14px;
+        @media (max-width: 1090px) {
+          margin-right: 0;
+          width: 295px;
+          height: 424px;
+          margin-top: 0;
+          margin-bottom: 14px;
+        }
+      }
+      .off13l {
+        width: 240px;
+        height: 340px;
+        margin-right: 107px;
+        @media (max-width: 1090px) {
+          margin-right: 0;
+          width: 295px;
+          height: 424px;
+          margin-top: 0;
           margin-bottom: 14px;
         }
       }
@@ -542,10 +570,10 @@ export default {
       bottom: -266%;
     }
     @media (max-width: 1440px) {
-      bottom: -500%;
+      bottom: -513%;
     }
     @media (max-height: 728px) {
-        bottom: -643%;
+        bottom: -663%;
       }
     @media (max-width: 1090px) {
       flex-direction: column;

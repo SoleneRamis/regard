@@ -478,7 +478,7 @@ export default {
           bottom: -200px;
         }
         @media (min-height: 724px) {
-          bottom: -340px;
+          bottom: -160px;
         }
         @media (max-width: 1090px) {
           position: static;
@@ -502,7 +502,7 @@ export default {
       bottom: -320px;
     }
     @media (min-height: 724px) {
-      bottom: -515px;
+      bottom: -355px;
     }
     @media (max-width: 1090px) {
       flex-direction: column;
