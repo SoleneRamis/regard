@@ -21,14 +21,16 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-.fade-enter-active, .fade-leave-actsive {
+.fade-enter-active,
+.fade-leave-actsive {
   transition-property: opacity;
   transition-duration: .25s;
 }
 .fade-enter-active {
   transition-delay: .25s;
 }
-.fade-enter, .fade-leave-active {
+.fade-enter,
+.fade-leave-active {
   opacity: 0
 }
 </style>
