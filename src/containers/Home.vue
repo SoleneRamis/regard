@@ -8,7 +8,7 @@
         <pensee></pensee>
         <squad></squad>
         <img class="kit" src="../../static/img/kit.jpg"/>
-        <!-- <video class="video" preload controls src="../../static/img/presentation.mov" /> -->
+        <video class="video" preload controls src="https://res.cloudinary.com/dn32la6ny/video/upload/v1561474751/presentation.mp4" />
       </div>
       <svg class="logo" width="23" height="84" viewBox="0 0 23 84" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M17.387 46.85L17.387 49.8398L19.2635 49.8398L19.2635 46.85L17.387 46.85Z" fill="#B52DF5"/>
