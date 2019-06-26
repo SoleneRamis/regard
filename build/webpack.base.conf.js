@@ -46,18 +46,18 @@ module.exports = {
         loader: 'vue-loader',
         options: vueLoaderConfig
       },
-      {
-        test: /\.mov$/,
-        use: [
-          'file-loader'
-        ]
-      },
-      {
-        test: /\.mp4$/,
-        use: [
-          'file-loader'
-        ]
-      },
+      // {
+      //   test: /\.mov$/,
+      //   use: [
+      //     'file-loader'
+      //   ]
+      // },
+      // {
+      //   test: /\.mp4$/,
+      //   use: [
+      //     'file-loader'
+      //   ]
+      // },
       {
         test: /\.js$/,
         loader: 'babel-loader',
@@ -72,7 +72,7 @@ module.exports = {
         }
       },
       {
-        test: /\.(mp4|webm|ogg|mp3|wav|flac|aac)(\?.*)?$/,
+        test: /\.(mov|mp4|webm|ogg|mp3|wav|flac|aac)(\?.*)?$/,
         loader: 'url-loader',
         options: {
           limit: 10000,
