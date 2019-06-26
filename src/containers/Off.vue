@@ -12,7 +12,7 @@
     </svg>
     <div class="container">
       <div class="left">
-        <!-- <img class="off1l" src="../../static/img/off/off1l.png"/>
+        <img class="off1l" src="../../static/img/off/off1l.png"/>
         <video class="off2l" preload controls Autoplay=autoplay muted playsinline loop src="../../static/img/off/off2l.mov"/>
         <img class="off3l" src="../../static/img/off/off3l.png"/>
         <img class="off4l" src="../../static/img/off/off4l.png"/>
@@ -24,11 +24,11 @@
         <video class="off10l" preload controls Autoplay=autoplay muted playsinline loop src="../../static/img/off/off10l.mov"/>
         <video class="off11l" preload controls Autoplay=autoplay muted playsinline loop src="../../static/img/off/off11l.mov"/>
         <img class="off12l" src="../../static/img/off/off12l.png"/>
-        <img class="off13l" src="../../static/img/off/off13l.jpg"/> -->
+        <img class="off13l" src="../../static/img/off/off13l.jpg"/>
 
       </div>
       <div class="right">
-        <!-- <img class="off1r" src="../../static/img/off/off1r.png"/>
+        <img class="off1r" src="../../static/img/off/off1r.png"/>
         <video class="off2r" preload controls Autoplay=autoplay muted playsinline loop src="../../static/img/off/off2r.mov"/>
         <img class="off3r" src="../../static/img/off/off3r.png"/>
         <img class="off4r" src="../../static/img/off/off4r.png"/>
@@ -42,7 +42,7 @@
         <img class="off12r" src="../../static/img/off/off12r.png"/>
         <video class="off13r" preload controls Autoplay=autoplay muted playsinline loop src="../../static/img/off/off13r.mov"/>
         <video class="off14r" preload controls Autoplay=autoplay muted playsinline loop src="../../static/img/off/off14r.mov"/>
-        <video class="off15r" preload controls Autoplay=autoplay loop src="../../static/img/off/off15r.mov"/> -->
+        <video class="off15r" preload controls Autoplay=autoplay loop src="../../static/img/off/off15r.mov"/>
       </div>
       <div class="toparrow" @click="Top">
         <svg class="arrow" width="27" height="37" viewBox="0 0 27 37" fill="none" xmlns="http://www.w3.org/2000/svg">
