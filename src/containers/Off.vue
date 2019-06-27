@@ -88,13 +88,11 @@ export default {
   src: url("../assets/fonts/prophet_regular.woff") format("woff");
 }
 .off {
+  width: 100%;
   height: 100%;
-  margin-top: 0;
-  display: flex;
-  justify-content: center;
   background-color: $purple;
-  overflow-x: hidden;
-  margin-left: -10px;
+  overflow: hidden;
+  position: relative;
   .logo {
     position: fixed;
     top: 292px;
@@ -115,8 +113,7 @@ export default {
   .container {
     display: flex;
     justify-content: space-between;
-    margin-left: 22px;
-    margin-bottom: 14%;
+    margin-bottom: 15%;
     @media (max-width: 1090px) {
       justify-content: flex-start;
       align-items: center;
@@ -304,7 +301,6 @@ export default {
           width: 295px;
           height: 424px;
           margin-top: 0;
-          margin-bottom: 14px;
         }
       }
     }
@@ -515,7 +511,6 @@ export default {
         width: 362px;
         height: 650px;
         margin-left: 39px;
-        margin-bottom: 14px;
         object-fit: cover;
         @media (max-width: 1090px) {
           margin-right: 37px;
@@ -524,85 +519,37 @@ export default {
           margin-bottom: 40px;
           margin-top: 0;
           object-fit: cover;
-          margin-bottom: 14px;
         }
       }
     }
   }
-  .toparrow {
-    margin-top: 30px;
-    .arrow {
-      @media (max-width: 2560px) {
-        position: absolute;
-        right: 14.5%;
-        bottom: -190%;
-      }
-      @media (max-width: 2048px) {
-        bottom: -248%;
-      }
-      @media (max-width: 1440px) {
-        position: absolute;
-        right: 12%;
-        bottom: -485%;
-      }
-      @media (max-width: 1090px) {
-        position: static;
-        margin-top: 40px;
-      }
-      @media (max-width: 500px) {
-        margin-top: -30px;
-      }
-      @media (min-height: 728px) {
-        bottom: -500%;
-      }
-      // @media (min-height: 686px) {
-      //   bottom: -670%;
-      // }
-      // @media (min-height: 718px) {
-      //   bottom: -640%;
-      // }
-      // @media (min-height: 821px) {
-      //   bottom: -484%;
-      // }
-      @media (min-height: 1306px) {
-        bottom: -305%;
-      }
+   .toparrow {
+    position: absolute;
+    bottom: 4%;
+    right: 6%;
+    @media (max-width: 2560px) {
+      bottom: 4%;
+      right: 14%;
+    }
+    @media (max-width: 1440px) {
+      bottom: 3.5%;
+      right: 11%;
+    }
+    @media (max-width: 1090px) {
+      right: 47%;
+      bottom: 2%;
     }
   }
   .made-white {
-    margin-top: 174px;
+    bottom: 0px;
     position: absolute;
-    bottom: 0;
-    @media (max-width: 2560px) {
-      bottom: -202%;
-      right: 0;
-      width: 100%;
-    }
-    @media (max-width: 2048px) {
-      bottom: -266%;
-    }
-    @media (max-width: 1440px) {
-      bottom: -513%;
+    @media (max-width: 2560px){
+    bottom: 0px;
     }
     @media (max-width: 1090px) {
       flex-direction: column;
       position: static;
-      margin-top: 50px;
-    }
-    @media (min-height: 728px) {
-      bottom: -663%;
-    }
-    // @media (min-height: 686px) {
-    //   bottom: -690%;
-    // }
-    @media (min-height: 718px) {
-        bottom: -515%;
-    }
-    // @media (min-height: 821px) {
-    //   bottom: -502%;
-    // }
-    @media (min-height: 1306px) {
-      bottom: -315%;
+      margin-top: 100px;
     }
   }
 }

@@ -162,9 +162,7 @@ export default {
 }
 .team {
   width: 100%;
-  margin-top: 0;
-  display: flex;
-  justify-content: center;
+  position: relative;
   .logo {
     position: fixed;
     top: 292px;
@@ -440,9 +438,6 @@ export default {
           width: 300px;
           margin-bottom: 14px;
         }
-        @media (max-width: 510px) {
-          margin-bottom: 90px;
-        }
         .reseauxNico {
           display: flex;
           margin-top: -12px;
@@ -462,67 +457,34 @@ export default {
     }
   }
   .toparrow {
-    margin-top: -10px;
-    .arrow {
-      @media (max-width: 2560px) {
-        display: none;
-      }
-      @media (max-width: 2048px) {
-        display: initial;
-        position: absolute;
-        right: 12%;
-        bottom: -70px;
-      }
-      @media (max-width: 1440px) {
-        right: 12%;
-        bottom: -200px;
-      }
-      @media (max-width: 1280px) {
-        bottom: -270px;
-      }
-      @media (max-width: 1090px) {
-        position: static;
-        margin-top: 40px;
-      }
-      @media (max-width: 500px) {
-        margin-top: -30px;
-      }
-      @media (min-height: 724px) {
-        bottom: -160px;
-      }
-      // @media (min-height: 686px) {
-      //   bottom: -415px;
-      // }
+    position: absolute;
+    bottom: 1%;
+    right: 6%;
+    @media (max-width: 2560px) {
+      bottom: 4%;
+      right: 14%;
+      visibility: hidden;
+    }
+    @media (max-width: 1440px) {
+      bottom: 3.5%;
+      right: 11%;
+      visibility: visible;
+    }
+    @media (max-width: 1090px) {
+      right: 48%;
+      bottom: 9%;
     }
   }
   .made-purple {
-    position: absolute;
     bottom: 0;
-    @media (max-width: 2560px) {
-      bottom: 0;
-    }
-    @media (max-width: 2048px) {
-      bottom: -200px;
-    }
-    @media (max-width: 1440px) {
-      bottom: -320px;
-    }
-    @media (max-width: 1280px) {
-      bottom: -405px;
+    position: absolute;
+    @media (max-width: 2560px){
+      bottom: -250px;
     }
     @media (max-width: 1090px) {
       flex-direction: column;
       position: static;
-      margin-top: 50px;
-    }
-    @media (min-height: 724px) {
-      bottom: -355px;
-    }
-    // @media (min-height: 686px) {
-    //   bottom: -515px;
-    // }
-    @media (min-height: 1306px) {
-      bottom: 35px;
+      margin-top: 100px;
     }
   }
 }

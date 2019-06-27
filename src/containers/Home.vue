@@ -7,8 +7,7 @@
         <merveilles></merveilles>
         <pensee></pensee>
         <squad></squad>
-        <img class="kit" src="../../static/img/kit.jpg"/>
-        <video class="video" preload controls src="https://res.cloudinary.com/dn32la6ny/video/upload/v1561474751/regard/presentation.mp4"/>
+        <regard></regard>
       </div>
       <svg class="logo" width="23" height="84" viewBox="0 0 23 84" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M17.387 46.85L17.387 49.8398L19.2635 49.8398L19.2635 46.85L17.387 46.85Z" fill="#B52DF5"/>
@@ -35,6 +34,7 @@ import Beaute from '../components/Beaute'
 import Merveilles from '../components/Merveilles'
 import Pensee from '../components/Pensee'
 import Squad from '../components/Squad'
+import Regard from '../components/Regard'
 import MadePurple from '../components/MadePurple'
 
 export default {
@@ -45,6 +45,7 @@ export default {
     Merveilles,
     Pensee,
     Squad,
+    Regard,
     MadePurple
   },
   data () {
@@ -91,48 +92,6 @@ export default {
         display: none;
       }
     }
-    .kit {
-      width: 700px;
-      margin-left: 648px;
-      margin-top: 110px;
-      @media (max-width: 2560px) {
-        margin-left: 915px;
-      }
-      @media (max-width: 1440px) {
-        margin-left: 365px;
-      }
-      @media (max-width: 1090px) {
-       width: 322px;
-        margin-left: 383px;
-        margin-top: 10px;
-      }
-      @media (max-width: 500px) {
-        width: 322px;
-        margin-left: 45px;
-        margin-top: 10px;
-      }
-    }
-    .video {
-      width: 700px;
-      margin-left: 648px;
-      margin-top: 45px;
-      @media (max-width: 2560px) {
-        margin-left: 915px;
-      }
-      @media (max-width: 1440px) {
-        margin-left: 365px;
-      }
-      @media (max-width: 1090px) {
-        width: 325px;
-        margin-left: 383px;
-        margin-top: 24px;
-      }
-      @media (max-width: 500px) {
-        width: 325px;
-        margin-left: 45px;
-        margin-top: 24px;
-      }
-    }
     .toparrow {
       position: absolute;
       bottom: 1%;
@@ -144,10 +103,6 @@ export default {
       @media (max-width: 1440px) {
         bottom: 3.5%;
         right: 11%;
-      }
-      @media (min-height: 724px) {
-          bottom: 5%;
-          right: 11.5%;
       }
       @media (max-width: 1090px) {
         bottom: 2.5%;
@@ -161,9 +116,6 @@ export default {
       margin-top: 114px;
       @media (max-width: 2560px){
         margin-top: 124px;
-      }
-      @media (min-height: 724px) {
-        margin-top: 140px;
       }
       @media (max-width: 1090px) {
         flex-direction: column;
