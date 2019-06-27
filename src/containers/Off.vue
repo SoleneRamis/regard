@@ -113,7 +113,7 @@ export default {
   .container {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 15%;
+    margin-bottom: 180px;
     @media (max-width: 1090px) {
       justify-content: flex-start;
       align-items: center;
